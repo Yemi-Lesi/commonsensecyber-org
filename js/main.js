@@ -10,7 +10,7 @@
   /* Community-submitted stories, reviewed and added by the site owner.
      Not translated — each story is displayed exactly as submitted. */
   const COMMUNITY_STORIES = [
-    // { name: 'A visitor', body: 'Story text goes here.' },
+    { body: "Scam call from a 'cousin', lost money before realizing." },
   ];
   const RESOURCE_URLS = [
     ['https://antifraudcentre-centreantifraude.ca', 'https://www.cyber.gc.ca', 'https://www.getcybersafe.gc.ca', 'https://competitionbureau.gc.ca/en/consumer-protection'],
