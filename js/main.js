@@ -474,14 +474,31 @@
   }
 
   /* ============================================================
-     Help form
-     No backend yet: this opens the visitor's email app with the
-     message pre-filled, addressed to CONTACT_EMAIL below.
-     Swap CONTACT_EMAIL for a real inbox, or replace this handler
-     with a hosted form service (Formspree, Netlify Forms, etc.)
-     once the site has a live URL to point it at.
+     Forms
+     Both forms POST to /api/submit, a Cloudflare Pages Function
+     that relays the message straight to our inbox — no mail app
+     required on the visitor's end. See functions/api/submit.js.
      ============================================================ */
-  const CONTACT_EMAIL = 'contact@commonsensecyber.org';
+  async function submitForm(payload, form, successEl, errorEl) {
+    const submitBtn = form.querySelector('button[type="submit"]');
+    errorEl.classList.remove('show');
+    successEl.classList.remove('show');
+    submitBtn.disabled = true;
+    try {
+      const res = await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!res.ok) throw new Error('submit failed');
+      successEl.classList.add('show');
+      form.reset();
+    } catch {
+      errorEl.classList.add('show');
+    } finally {
+      submitBtn.disabled = false;
+    }
+  }
 
   function initForm() {
     const form = document.getElementById('helpForm');
@@ -492,24 +509,21 @@
         form.reportValidity();
         return;
       }
-      const name = form.name.value.trim();
-      const email = form.email.value.trim();
-      const message = form.message.value.trim();
-      const subject = `Common Sense Cyber — message from ${name}`;
-      const body = `${message}\n\n— ${name} (${email})`;
-      const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      window.location.href = mailtoUrl;
-
-      document.getElementById('formSuccess').classList.add('show');
-      form.reset();
+      submitForm({
+        type: 'contact',
+        name: form.name.value.trim(),
+        email: form.email.value.trim(),
+        message: form.message.value.trim(),
+        website: form.website.value
+      }, form, document.getElementById('formSuccess'), document.getElementById('formError'));
     });
   }
 
   /* ============================================================
      Community stories: submission form
-     No backend yet: this opens the visitor's email app with the
-     story pre-filled, addressed to CONTACT_EMAIL, for manual review
-     before being added to COMMUNITY_STORIES above.
+     Submissions are relayed to our inbox for manual review before
+     being added to COMMUNITY_STORIES above — nothing here posts
+     to the site automatically.
      ============================================================ */
   function initCommunityForm() {
     const form = document.getElementById('communityForm');
@@ -520,18 +534,14 @@
         form.reportValidity();
         return;
       }
-      const name = form.communityName.value.trim();
-      const anonymous = form.communityAnonymous.checked;
-      const story = form.communityStory.value.trim();
-      const email = form.communityEmail.value.trim();
-      const displayName = anonymous ? 'Anonymous' : (name || 'Anonymous');
-      const subject = `Common Sense Cyber — community story from ${displayName}`;
-      const body = `${story}\n\n— ${displayName}${email ? ` (${email})` : ''}\n\n[Post anonymously: ${anonymous ? 'yes' : 'no'}]`;
-      const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      window.location.href = mailtoUrl;
-
-      document.getElementById('communityFormSuccess').classList.add('show');
-      form.reset();
+      submitForm({
+        type: 'community',
+        name: form.communityName.value.trim(),
+        anonymous: form.communityAnonymous.checked,
+        story: form.communityStory.value.trim(),
+        email: form.communityEmail.value.trim(),
+        website: form.website.value
+      }, form, document.getElementById('communityFormSuccess'), document.getElementById('communityFormError'));
     });
   }
 

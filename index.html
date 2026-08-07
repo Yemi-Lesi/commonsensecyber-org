@@ -367,6 +367,10 @@
           <h3 data-i18n="report.formTitle">Ask us a question</h3>
           <p class="form-note" data-i18n="report.formNote">This opens your email app with your message pre-filled.</p>
           <form id="helpForm" novalidate>
+            <div class="hp-field" aria-hidden="true">
+              <label for="helpWebsite">Website</label>
+              <input type="text" id="helpWebsite" name="website" tabindex="-1" autocomplete="off">
+            </div>
             <div class="form-field">
               <label for="name" data-i18n="report.nameLabel">Your name</label>
               <input type="text" id="name" name="name" autocomplete="name" required>
@@ -380,7 +384,8 @@
               <textarea id="message" name="message" required></textarea>
             </div>
             <button class="btn btn-primary" type="submit" data-i18n="report.submitLabel">Send my message</button>
-            <div class="form-success" id="formSuccess" role="status" data-i18n="report.successMsg">Opening your email app…</div>
+            <div class="form-success" id="formSuccess" role="status" data-i18n="report.successMsg">Sending your message…</div>
+            <div class="form-error" id="formError" role="alert" data-i18n="report.errorMsg">Something went wrong. Please try again, or email us directly.</div>
           </form>
         </div>
       </div>
@@ -414,8 +419,12 @@
 
         <div class="reveal">
           <h3 data-i18n="community.formTitle">Share your story</h3>
-          <p class="form-note" data-i18n="community.formNote">This opens your email app with your story pre-filled. Nothing is posted automatically — a real person reviews every submission before it goes on the site.</p>
+          <p class="form-note" data-i18n="community.formNote">Your story is sent directly to us. Nothing is posted automatically — a real person reviews every submission before it goes on the site.</p>
           <form id="communityForm" novalidate>
+            <div class="hp-field" aria-hidden="true">
+              <label for="communityWebsite">Website</label>
+              <input type="text" id="communityWebsite" name="website" tabindex="-1" autocomplete="off">
+            </div>
             <div class="form-field">
               <label for="communityName" data-i18n="community.nameLabel">Your name (optional)</label>
               <input type="text" id="communityName" name="communityName" autocomplete="name">
@@ -437,7 +446,8 @@
               <label for="communityConsent" data-i18n="community.consentLabel">I'm okay with this story being reviewed and possibly shared on this site.</label>
             </div>
             <button class="btn btn-primary" type="submit" data-i18n="community.submitLabel">Send my story</button>
-            <div class="form-success" id="communityFormSuccess" role="status" data-i18n="community.successMsg">Opening your email app…</div>
+            <div class="form-success" id="communityFormSuccess" role="status" data-i18n="community.successMsg">Sending your story…</div>
+            <div class="form-error" id="communityFormError" role="alert" data-i18n="community.errorMsg">Something went wrong. Please try again, or email us directly.</div>
           </form>
         </div>
       </div>

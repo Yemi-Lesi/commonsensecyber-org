@@ -273,10 +273,11 @@ window.CSC_I18N = {
         { title: 'A trusted family member or friend', body: 'Talking it through with someone you trust is always a smart first step.' }
       ],
       formTitle: 'Ask us a question',
-      formNote: 'This opens your email app with your message pre-filled. Once the site is live, this can be swapped for a form that sends automatically — no popup required.',
+      formNote: 'Your message is sent directly to us — no email app required.',
       nameLabel: 'Your name', emailLabel: 'Email address', messageLabel: 'What happened?',
       submitLabel: 'Send my message',
-      successMsg: 'Opening your email app with your message ready to send…'
+      successMsg: 'Sending your message…',
+      errorMsg: 'Something went wrong. Please try again, or email us directly at contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'Questions', h2: 'Frequently asked questions',
@@ -295,18 +296,19 @@ window.CSC_I18N = {
       emptyBody: 'Be the first to share — your experience could help someone else spot the same scam.',
       anonymousName: 'Anonymous',
       formTitle: 'Share your story',
-      formNote: "This opens your email app with your story pre-filled. Nothing is posted automatically — a real person reviews every submission before it goes on the site.",
+      formNote: "Your story is sent directly to us. Nothing is posted automatically — a real person reviews every submission before it goes on the site.",
       nameLabel: 'Your name (optional)', anonymousLabel: 'Post this anonymously', storyLabel: 'What happened?',
       emailLabel: 'Your email (private — only used if we have a follow-up question, never published)',
       consentLabel: "I'm okay with this story being reviewed and possibly shared on this site.",
       submitLabel: 'Send my story',
-      successMsg: 'Opening your email app…'
+      successMsg: 'Sending your story…',
+      errorMsg: 'Something went wrong. Please try again, or email us directly at contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'Privacy & Terms',
       p: 'How we handle information on this site, in plain language.',
       items: [
-        { q: 'What information do you collect?', a: "The Get Help and Share Your Story forms open your own email app with your message ready to send — we don't run a server or database, so nothing you type is stored or seen by us until you personally hit send. Community stories are only published after a real person reviews them, and you can ask to have your story edited, anonymized, or removed at any time." },
+        { q: 'What information do you collect?', a: "The Get Help and Share Your Story forms send your message directly to us through a transactional email service (Resend) — we don't run a database, so nothing is stored beyond that one email. Community stories are only published after a real person reviews them, and you can ask to have your story edited, anonymized, or removed at any time. See Resend's privacy policy for how they handle message delivery." },
         { q: 'What do you store on my device?', a: "Just two small preferences, saved in your browser's local storage: your chosen language and text-size setting. Both stay on your device and are never sent to us." },
         { q: 'Do you use cookies, tracking, or analytics?', a: "No advertising cookies, tracking scripts, or analytics of any kind. The one exception is Google Fonts, used to display text in multiple languages — loading it may share your IP address with Google. See Google's privacy policy for details." },
         { q: "What about children's privacy?", a: "Common Sense Cyber is written for readers of every age, including children, but we don't knowingly collect personal information from anyone. Every form is optional, and we encourage a parent or guardian to review anything before it's sent." },
@@ -502,10 +504,11 @@ window.CSC_I18N = {
         { title: 'Un proche ou un ami de confiance', body: "En parler avec quelqu'un en qui vous avez confiance est toujours une bonne première étape." }
       ],
       formTitle: 'Posez-nous une question',
-      formNote: "Ceci ouvre votre application de courriel avec votre message prérempli. Une fois le site en ligne, ceci pourra être remplacé par un formulaire qui s'envoie automatiquement — sans fenêtre surgissante.",
+      formNote: "Votre message nous est envoyé directement — aucune application de courriel requise.",
       nameLabel: 'Votre nom', emailLabel: 'Adresse courriel', messageLabel: "Que s'est-il passé?",
       submitLabel: 'Envoyer mon message',
-      successMsg: 'Ouverture de votre application de courriel avec votre message prêt à envoyer…'
+      successMsg: 'Envoi de votre message…',
+      errorMsg: "Une erreur s'est produite. Veuillez réessayer, ou écrivez-nous directement à contact@commonsensecyber.org."
     },
     faq: {
       eyebrow: 'Questions', h2: 'Foire aux questions',
@@ -524,18 +527,19 @@ window.CSC_I18N = {
       emptyBody: "Soyez la première personne à partager la vôtre — votre expérience pourrait aider quelqu'un d'autre à repérer la même arnaque.",
       anonymousName: 'Anonyme',
       formTitle: 'Partagez votre histoire',
-      formNote: "Ceci ouvre votre application de courriel avec votre histoire préremplie. Rien n'est publié automatiquement — une vraie personne vérifie chaque soumission avant sa publication sur le site.",
+      formNote: "Votre histoire nous est envoyée directement. Rien n'est publié automatiquement — une vraie personne vérifie chaque soumission avant sa publication sur le site.",
       nameLabel: 'Votre nom (facultatif)', anonymousLabel: 'Publier ceci de façon anonyme', storyLabel: "Que s'est-il passé?",
       emailLabel: 'Votre courriel (privé — utilisé seulement en cas de question de suivi, jamais publié)',
       consentLabel: "J'accepte que cette histoire soit vérifiée et possiblement partagée sur ce site.",
       submitLabel: 'Envoyer mon histoire',
-      successMsg: 'Ouverture de votre application de courriel…'
+      successMsg: 'Envoi de votre histoire…',
+      errorMsg: "Une erreur s'est produite. Veuillez réessayer, ou écrivez-nous directement à contact@commonsensecyber.org."
     },
     legal: {
       h2: 'Confidentialité et conditions',
       p: 'Comment nous traitons les renseignements sur ce site, en langage simple.',
       items: [
-        { q: 'Quelles informations recueillez-vous?', a: "Les formulaires « Obtenir de l'aide » et « Partagez votre histoire » ouvrent votre propre application de courriel avec votre message prêt à envoyer — nous n'exploitons ni serveur ni base de données, donc rien de ce que vous tapez n'est stocké ni vu par nous avant que vous choisissiez personnellement de l'envoyer. Les histoires communautaires ne sont publiées qu'après vérification par une vraie personne, et vous pouvez demander que votre histoire soit modifiée, rendue anonyme ou retirée en tout temps." },
+        { q: 'Quelles informations recueillez-vous?', a: "Les formulaires « Obtenir de l'aide » et « Partagez votre histoire » nous envoient votre message directement, par l'intermédiaire d'un service de courriel transactionnel (Resend) — nous n'exploitons aucune base de données, donc rien n'est conservé au-delà de ce courriel. Les histoires communautaires ne sont publiées qu'après vérification par une vraie personne, et vous pouvez demander que votre histoire soit modifiée, rendue anonyme ou retirée en tout temps. Consultez la politique de confidentialité de Resend pour savoir comment ils traitent l'acheminement des messages." },
         { q: 'Que stockez-vous sur mon appareil?', a: "Seulement deux petites préférences, enregistrées dans le stockage local de votre navigateur : votre langue choisie et votre taille de texte. Les deux restent sur votre appareil et ne nous sont jamais envoyées." },
         { q: 'Utilisez-vous des témoins (cookies), du suivi ou des analyses?', a: "Aucun témoin publicitaire, script de suivi ou outil d'analyse, peu importe le type. La seule exception est Google Fonts, utilisé pour afficher le texte dans plusieurs langues — son chargement peut partager votre adresse IP avec Google. Consultez la politique de confidentialité de Google pour plus de détails." },
         { q: "Qu'en est-il de la confidentialité des enfants?", a: "Common Sense Cyber s'adresse à des lecteurs de tous âges, y compris les enfants, mais nous ne recueillons sciemment aucun renseignement personnel auprès de qui que ce soit. Chaque formulaire est facultatif, et nous encourageons un parent ou tuteur à réviser tout message avant son envoi." },
@@ -731,10 +735,11 @@ window.CSC_I18N = {
         { title: 'Un familiar o amigo de confianza', body: 'Hablarlo con alguien en quien confías siempre es un buen primer paso.' }
       ],
       formTitle: 'Haznos una pregunta',
-      formNote: 'Esto abre tu aplicación de correo con tu mensaje ya redactado. Una vez que el sitio esté en línea, esto puede reemplazarse por un formulario que se envía automáticamente, sin ventanas emergentes.',
+      formNote: 'Tu mensaje se envía directamente a nosotros — no necesitas ninguna aplicación de correo.',
       nameLabel: 'Tu nombre', emailLabel: 'Correo electrónico', messageLabel: '¿Qué sucedió?',
       submitLabel: 'Enviar mi mensaje',
-      successMsg: 'Abriendo tu aplicación de correo con tu mensaje listo para enviar…'
+      successMsg: 'Enviando tu mensaje…',
+      errorMsg: 'Algo salió mal. Vuelve a intentarlo, o escríbenos directamente a contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'Preguntas', h2: 'Preguntas frecuentes',
@@ -753,18 +758,19 @@ window.CSC_I18N = {
       emptyBody: 'Sé la primera persona en compartir la tuya — tu experiencia podría ayudar a alguien más a reconocer la misma estafa.',
       anonymousName: 'Anónimo',
       formTitle: 'Comparte tu historia',
-      formNote: 'Esto abre tu aplicación de correo con tu historia ya redactada. Nada se publica automáticamente — una persona real revisa cada historia antes de que aparezca en el sitio.',
+      formNote: 'Tu historia se envía directamente a nosotros. Nada se publica automáticamente — una persona real revisa cada historia antes de que aparezca en el sitio.',
       nameLabel: 'Tu nombre (opcional)', anonymousLabel: 'Publicar esto de forma anónima', storyLabel: '¿Qué sucedió?',
       emailLabel: 'Tu correo electrónico (privado — solo se usa si tenemos una pregunta de seguimiento, nunca se publica)',
       consentLabel: 'Estoy de acuerdo con que esta historia sea revisada y posiblemente compartida en este sitio.',
       submitLabel: 'Enviar mi historia',
-      successMsg: 'Abriendo tu aplicación de correo…'
+      successMsg: 'Enviando tu historia…',
+      errorMsg: 'Algo salió mal. Vuelve a intentarlo, o escríbenos directamente a contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'Privacidad y términos',
       p: 'Cómo manejamos la información en este sitio, en lenguaje sencillo.',
       items: [
-        { q: '¿Qué información recopilan?', a: "Los formularios de Obtener ayuda y Comparte tu historia abren tu propia aplicación de correo con tu mensaje listo para enviar — no operamos un servidor ni una base de datos, así que nada de lo que escribas se almacena ni lo vemos nosotros hasta que tú decidas enviarlo. Las historias comunitarias solo se publican después de que una persona real las revise, y puedes pedir que tu historia sea editada, anonimizada o eliminada en cualquier momento." },
+        { q: '¿Qué información recopilan?', a: "Los formularios de Obtener ayuda y Comparte tu historia envían tu mensaje directamente a nosotros a través de un servicio de correo transaccional (Resend) — no operamos ninguna base de datos, así que no se guarda nada más allá de ese correo. Las historias comunitarias solo se publican después de que una persona real las revise, y puedes pedir que tu historia sea editada, anonimizada o eliminada en cualquier momento. Consulta la política de privacidad de Resend para saber cómo manejan la entrega de mensajes." },
         { q: '¿Qué guardan en mi dispositivo?', a: "Solo dos pequeñas preferencias, guardadas en el almacenamiento local de tu navegador: tu idioma elegido y el tamaño de texto. Ambas permanecen en tu dispositivo y nunca se nos envían." },
         { q: '¿Usan cookies, rastreo o análisis?', a: "Ninguna cookie publicitaria, script de rastreo o análisis de ningún tipo. La única excepción es Google Fonts, usado para mostrar texto en varios idiomas — al cargarlo, es posible que se comparta tu dirección IP con Google. Consulta la política de privacidad de Google para más detalles." },
         { q: '¿Qué hay de la privacidad de los niños?', a: "Common Sense Cyber está escrito para lectores de todas las edades, incluidos los niños, pero no recopilamos conscientemente información personal de nadie. Cada formulario es opcional, y recomendamos que un padre, madre o tutor revise cualquier mensaje antes de enviarlo." },
@@ -960,10 +966,11 @@ window.CSC_I18N = {
         { title: '信任的家人或朋友', body: '找信任的人聊一聊，永远是明智的第一步。' }
       ],
       formTitle: '向我们提问',
-      formNote: '点击后会打开您的邮件应用，并自动填好留言内容。网站正式上线后，这里将替换为可自动发送、无需弹窗的表单。',
+      formNote: '您的留言将直接发送给我们——无需任何邮件应用。',
       nameLabel: '您的姓名', emailLabel: '电子邮箱', messageLabel: '发生了什么事？',
       submitLabel: '发送我的留言',
-      successMsg: '正在打开您的邮件应用，留言已准备就绪……'
+      successMsg: '正在发送您的留言……',
+      errorMsg: '出了点问题，请重试，或直接发邮件至 contact@commonsensecyber.org 与我们联系。'
     },
     faq: {
       eyebrow: '常见问题', h2: '常见问题解答',
@@ -982,18 +989,19 @@ window.CSC_I18N = {
       emptyBody: '成为第一个分享故事的人——您的经历也许能帮助别人识破同样的骗局。',
       anonymousName: '匿名用户',
       formTitle: '分享您的故事',
-      formNote: '点击后会打开您的邮件应用，并自动填好您的故事内容。内容不会自动发布——每一篇投稿都会经过真人审核后才会出现在网站上。',
+      formNote: '您的故事将直接发送给我们。内容不会自动发布——每一篇投稿都会经过真人审核后才会出现在网站上。',
       nameLabel: '您的姓名（可选）', anonymousLabel: '匿名发布', storyLabel: '发生了什么事？',
       emailLabel: '您的电子邮箱（保密——仅在需要跟进提问时使用，绝不会公开）',
       consentLabel: '我同意这篇故事被审核，并可能被分享到本网站上。',
       submitLabel: '发送我的故事',
-      successMsg: '正在打开您的邮件应用……'
+      successMsg: '正在发送您的故事……',
+      errorMsg: '出了点问题，请重试，或直接发邮件至 contact@commonsensecyber.org 与我们联系。'
     },
     legal: {
       h2: '隐私与条款',
       p: '我们如何处理本网站上的信息，用简单易懂的语言说明。',
       items: [
-        { q: '你们会收集哪些信息？', a: '"获取帮助"和"分享您的故事"表单会打开您自己的邮件应用，并自动填好待发送的内容——我们不运营任何服务器或数据库，因此在您亲自点击发送之前，您输入的任何内容都不会被存储或被我们看到。社区故事只有在真人审核后才会发布，您可以随时要求编辑、匿名处理或删除您的故事。' },
+        { q: '你们会收集哪些信息？', a: '"获取帮助"和"分享您的故事"表单会通过一个事务性邮件服务（Resend）将您的留言直接发送给我们——我们不运营任何数据库，因此除了那封邮件之外不会保存任何内容。社区故事只有在真人审核后才会发布，您可以随时要求编辑、匿名处理或删除您的故事。有关邮件投递的处理方式，请参阅 Resend 的隐私政策。' },
         { q: '你们会在我的设备上存储什么？', a: '仅有两项很小的偏好设置，保存在您浏览器的本地存储中：您选择的语言和文字大小。两者都只保留在您的设备上，绝不会发送给我们。' },
         { q: '你们使用 Cookie、跟踪或分析工具吗？', a: '不使用任何广告 Cookie、跟踪脚本或分析工具。唯一的例外是 Google Fonts，用于显示多语言文本——加载它可能会将您的 IP 地址分享给 Google。详情请参阅 Google 的隐私政策。' },
         { q: '关于儿童隐私呢？', a: 'Common Sense Cyber 面向所有年龄段的读者，包括儿童，但我们不会在明知情况下收集任何人的个人信息。所有表单都是可选的，我们建议家长或监护人在发送前先查看内容。' },
@@ -1189,10 +1197,11 @@ window.CSC_I18N = {
         { title: 'أحد أفراد العائلة أو صديق تثق به', body: 'التحدث في الأمر مع شخص تثق به هو دائمًا خطوة أولى ذكية.' }
       ],
       formTitle: 'اطرح علينا سؤالًا',
-      formNote: 'سيفتح هذا تطبيق البريد الإلكتروني لديك برسالتك جاهزة مسبقًا. بمجرد إطلاق الموقع، يمكن استبدال هذا بنموذج يُرسل تلقائيًا — دون أي نافذة منبثقة.',
+      formNote: 'تُرسَل رسالتك إلينا مباشرة — لا حاجة إلى أي تطبيق بريد إلكتروني.',
       nameLabel: 'اسمك', emailLabel: 'البريد الإلكتروني', messageLabel: 'ماذا حدث؟',
       submitLabel: 'إرسال رسالتي',
-      successMsg: 'جارٍ فتح تطبيق البريد الإلكتروني لديك مع رسالتك الجاهزة للإرسال…'
+      successMsg: 'جارٍ إرسال رسالتك…',
+      errorMsg: 'حدث خطأ ما. يرجى المحاولة مرة أخرى، أو راسلنا مباشرة على contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'أسئلة', h2: 'الأسئلة الشائعة',
@@ -1211,18 +1220,19 @@ window.CSC_I18N = {
       emptyBody: 'كن أول من يشارك قصته — قد تساعد تجربتك شخصًا آخر على اكتشاف نفس الاحتيال.',
       anonymousName: 'مجهول',
       formTitle: 'شارك قصتك',
-      formNote: 'سيفتح هذا تطبيق البريد الإلكتروني لديك مع قصتك جاهزة مسبقًا. لا يُنشر شيء تلقائيًا — يقوم شخص حقيقي بمراجعة كل قصة قبل نشرها على الموقع.',
+      formNote: 'تُرسَل قصتك إلينا مباشرة. لا يُنشر شيء تلقائيًا — يقوم شخص حقيقي بمراجعة كل قصة قبل نشرها على الموقع.',
       nameLabel: 'اسمك (اختياري)', anonymousLabel: 'نشر هذا بشكل مجهول', storyLabel: 'ماذا حدث؟',
       emailLabel: 'بريدك الإلكتروني (خاص — يُستخدم فقط إذا كان لدينا سؤال متابعة، ولن يُنشر أبدًا)',
       consentLabel: 'أوافق على مراجعة هذه القصة واحتمال مشاركتها على هذا الموقع.',
       submitLabel: 'إرسال قصتي',
-      successMsg: 'جارٍ فتح تطبيق البريد الإلكتروني لديك…'
+      successMsg: 'جارٍ إرسال قصتك…',
+      errorMsg: 'حدث خطأ ما. يرجى المحاولة مرة أخرى، أو راسلنا مباشرة على contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'الخصوصية والشروط',
       p: 'كيف نتعامل مع المعلومات على هذا الموقع، بلغة بسيطة.',
       items: [
-        { q: 'ما المعلومات التي تجمعونها؟', a: 'تفتح نماذج "طلب المساعدة" و"شارك قصتك" تطبيق البريد الإلكتروني الخاص بك مع رسالتك جاهزة للإرسال — نحن لا نشغّل خادمًا أو قاعدة بيانات، لذا لا يُخزَّن أو يُرى أي شيء تكتبه من قِبلنا حتى تختار بنفسك إرساله. تُنشر القصص المجتمعية فقط بعد مراجعتها من قِبل شخص حقيقي، ويمكنك طلب تعديل قصتك أو إخفاء هويتها أو حذفها في أي وقت.' },
+        { q: 'ما المعلومات التي تجمعونها؟', a: 'ترسل نماذج "طلب المساعدة" و"شارك قصتك" رسالتك إلينا مباشرة عبر خدمة بريد إلكتروني معاملاتية (Resend) — نحن لا نشغّل أي قاعدة بيانات، لذا لا يُحفظ شيء سوى تلك الرسالة. تُنشر القصص المجتمعية فقط بعد مراجعتها من قِبل شخص حقيقي، ويمكنك طلب تعديل قصتك أو إخفاء هويتها أو حذفها في أي وقت. راجع سياسة خصوصية Resend لمعرفة كيفية تعاملهم مع إيصال الرسائل.' },
         { q: 'ماذا تخزّنون على جهازي؟', a: 'فقط تفضيلان صغيران، محفوظان في التخزين المحلي لمتصفحك: لغتك المختارة وحجم النص. يبقى كلاهما على جهازك ولا يُرسلان إلينا أبدًا.' },
         { q: 'هل تستخدمون ملفات تعريف الارتباط أو التتبع أو التحليلات؟', a: 'لا نستخدم أي ملفات تعريف ارتباط إعلانية أو نصوص تتبع أو أدوات تحليل من أي نوع. الاستثناء الوحيد هو Google Fonts، المستخدم لعرض النص بعدة لغات — قد يؤدي تحميله إلى مشاركة عنوان IP الخاص بك مع Google. راجع سياسة خصوصية Google لمزيد من التفاصيل.' },
         { q: 'ماذا عن خصوصية الأطفال؟', a: 'مصمَّم Common Sense Cyber للقراء من جميع الأعمار، بمن فيهم الأطفال، لكننا لا نجمع عن قصد أي معلومات شخصية من أي شخص. كل نموذج اختياري، ونشجّع على أن يراجع أحد الوالدين أو الوصي أي رسالة قبل إرسالها.' },
@@ -1418,10 +1428,11 @@ window.CSC_I18N = {
         { title: 'कोई भरोसेमंद परिवार का सदस्य या दोस्त', body: 'किसी ऐसे व्यक्ति से बात करना जिस पर आप भरोसा करते हैं, हमेशा एक समझदारी भरा पहला कदम होता है।' }
       ],
       formTitle: 'हमसे सवाल पूछें',
-      formNote: 'इससे आपकी ईमेल ऐप खुल जाएगी, जिसमें आपका मैसेज पहले से भरा होगा। साइट लाइव होने के बाद, इसे ऐसे फ़ॉर्म से बदला जा सकता है जो अपने आप भेज दे — बिना किसी पॉप-अप के।',
+      formNote: 'आपका मैसेज सीधे हमें भेजा जाता है — किसी ईमेल ऐप की ज़रूरत नहीं।',
       nameLabel: 'आपका नाम', emailLabel: 'ईमेल पता', messageLabel: 'क्या हुआ था?',
       submitLabel: 'मेरा मैसेज भेजें',
-      successMsg: 'आपकी ईमेल ऐप खुल रही है, मैसेज भेजने के लिए तैयार है…'
+      successMsg: 'आपका मैसेज भेजा जा रहा है…',
+      errorMsg: 'कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें, या हमें सीधे contact@commonsensecyber.org पर ईमेल करें।'
     },
     faq: {
       eyebrow: 'सवाल', h2: 'अक्सर पूछे जाने वाले सवाल',
@@ -1440,18 +1451,19 @@ window.CSC_I18N = {
       emptyBody: 'अपनी कहानी साझा करने वाले पहले व्यक्ति बनें — आपका अनुभव किसी और को वही धोखाधड़ी पहचानने में मदद कर सकता है।',
       anonymousName: 'गुमनाम',
       formTitle: 'अपनी कहानी साझा करें',
-      formNote: 'इससे आपकी ईमेल ऐप खुल जाएगी, जिसमें आपकी कहानी पहले से भरी होगी। कुछ भी अपने आप पब्लिश नहीं होता — साइट पर आने से पहले हर कहानी को एक असली व्यक्ति जांचता है।',
+      formNote: 'आपकी कहानी सीधे हमें भेजी जाती है। कुछ भी अपने आप पब्लिश नहीं होता — साइट पर आने से पहले हर कहानी को एक असली व्यक्ति जांचता है।',
       nameLabel: 'आपका नाम (वैकल्पिक)', anonymousLabel: 'इसे गुमनाम रूप से पोस्ट करें', storyLabel: 'क्या हुआ था?',
       emailLabel: 'आपका ईमेल (निजी — केवल फॉलो-अप सवाल के लिए इस्तेमाल होगा, कभी पब्लिश नहीं होगा)',
       consentLabel: 'मैं सहमत हूँ कि इस कहानी की समीक्षा हो और इसे इस साइट पर साझा किया जा सकता है।',
       submitLabel: 'मेरी कहानी भेजें',
-      successMsg: 'आपकी ईमेल ऐप खुल रही है…'
+      successMsg: 'आपकी कहानी भेजी जा रही है…',
+      errorMsg: 'कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें, या हमें सीधे contact@commonsensecyber.org पर ईमेल करें।'
     },
     legal: {
       h2: 'गोपनीयता और नियम',
       p: 'हम इस साइट पर जानकारी को कैसे संभालते हैं, आसान भाषा में।',
       items: [
-        { q: 'आप कौन सी जानकारी इकट्ठा करते हैं?', a: '"मदद पाएं" और "अपनी कहानी साझा करें" फ़ॉर्म आपकी अपनी ईमेल ऐप खोलते हैं, जिसमें आपका मैसेज भेजने के लिए पहले से तैयार होता है — हम कोई सर्वर या डेटाबेस नहीं चलाते, इसलिए आप जो भी टाइप करते हैं, जब तक आप खुद उसे भेजने का फैसला नहीं करते, वह न तो स्टोर होता है और न ही हमें दिखता है। समुदाय की कहानियाँ केवल एक असली व्यक्ति द्वारा जांचे जाने के बाद ही पब्लिश होती हैं, और आप कभी भी अपनी कहानी को एडिट, गुमनाम या हटाने के लिए कह सकते हैं।' },
+        { q: 'आप कौन सी जानकारी इकट्ठा करते हैं?', a: '"मदद पाएं" और "अपनी कहानी साझा करें" फ़ॉर्म आपका मैसेज एक ट्रांज़ैक्शनल ईमेल सेवा (Resend) के ज़रिए सीधे हमें भेजते हैं — हम कोई डेटाबेस नहीं चलाते, इसलिए उस ईमेल के अलावा कुछ भी स्टोर नहीं होता। समुदाय की कहानियाँ केवल एक असली व्यक्ति द्वारा जांचे जाने के बाद ही पब्लिश होती हैं, और आप कभी भी अपनी कहानी को एडिट, गुमनाम या हटाने के लिए कह सकते हैं। मैसेज डिलीवरी को वे कैसे संभालते हैं, यह जानने के लिए Resend की प्राइवेसी पॉलिसी देखें।' },
         { q: 'आप मेरे डिवाइस पर क्या स्टोर करते हैं?', a: 'सिर्फ दो छोटी प्राथमिकताएँ, जो आपके ब्राउज़र की लोकल स्टोरेज में सेव होती हैं: आपकी चुनी हुई भाषा और टेक्स्ट-साइज़ सेटिंग। दोनों आपके डिवाइस पर ही रहती हैं और कभी भी हमें नहीं भेजी जातीं।' },
         { q: 'क्या आप कुकीज़, ट्रैकिंग, या एनालिटिक्स इस्तेमाल करते हैं?', a: 'कोई विज्ञापन कुकीज़, ट्रैकिंग स्क्रिप्ट, या किसी भी तरह का एनालिटिक्स नहीं। एक अपवाद है Google Fonts, जिसका इस्तेमाल कई भाषाओं में टेक्स्ट दिखाने के लिए होता है — इसे लोड करने से आपका IP एड्रेस Google के साथ शेयर हो सकता है। जानकारी के लिए Google की प्राइवेसी पॉलिसी देखें।' },
         { q: 'बच्चों की गोपनीयता के बारे में क्या?', a: 'Common Sense Cyber हर उम्र के पाठकों के लिए लिखा गया है, बच्चों सहित, लेकिन हम जानबूझकर किसी से भी व्यक्तिगत जानकारी नहीं लेते। हर फ़ॉर्म वैकल्पिक है, और हम सलाह देते हैं कि कोई भी मैसेज भेजने से पहले माता-पिता या अभिभावक उसे जांच लें।' },
@@ -1647,10 +1659,11 @@ window.CSC_I18N = {
         { title: 'Ẹbí tàbí ọ̀rẹ́ tí o gbẹ́kẹ̀lé', body: 'Bíbá ẹnìkan tí o gbẹ́kẹ̀lé sọ̀rọ̀ nípa rẹ̀ jẹ́ ìgbésẹ̀ àkọ́kọ́ tí ó gbọ́n nígbà gbogbo.' }
       ],
       formTitle: 'Bi wá ní ìbéèrè',
-      formNote: 'Èyí yóò ṣí app ímeèlì rẹ pẹ̀lú ìránṣẹ́ rẹ tí a ti kọ tẹ́lẹ̀. Ní kété tí ojú-òpó náà bá ti bẹ̀rẹ̀ ní kíkún, a lè yí èyí padà sí fọ́ọ̀mù tí yóò fi ránṣẹ́ fúnra rẹ̀ — láìní fèrèsé tí yóò yọjú.',
+      formNote: 'A óò fi ìránṣẹ́ rẹ ránṣẹ́ sí wa tààrà — kò sí àìní fún app ímeèlì kankan.',
       nameLabel: 'Orúkọ rẹ', emailLabel: 'Àdírẹ́ẹ̀sì ímeèlì', messageLabel: 'Kí ni ó ṣẹlẹ̀?',
       submitLabel: 'Fi ìránṣẹ́ mi ránṣẹ́',
-      successMsg: 'À ń ṣí app ímeèlì rẹ pẹ̀lú ìránṣẹ́ rẹ tí ó ti ṣetán láti fi ránṣẹ́…'
+      successMsg: 'À ń fi ìránṣẹ́ rẹ ránṣẹ́…',
+      errorMsg: 'Ohun kan ṣàṣìṣe. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi, tàbí kọ ìmeèlì sí wa tààrà ní contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'Àwọn Ìbéèrè', h2: 'Àwọn Ìbéèrè Tí A Sábà Ń Béèrè',
@@ -1669,18 +1682,19 @@ window.CSC_I18N = {
       emptyBody: 'Jẹ́ ẹni àkọ́kọ́ tí yóò pín tirẹ̀ — ìrírí rẹ lè ràn ẹlòmíràn lọ́wọ́ láti mọ ẹ̀tàn kan náà.',
       anonymousName: 'Aláìṣàkọsílẹ̀',
       formTitle: 'Fi Ìtàn Rẹ Sílẹ̀',
-      formNote: 'Èyí yóò ṣí app ímeèlì rẹ pẹ̀lú ìtàn rẹ tí a ti kọ tẹ́lẹ̀. Kò sí ohun tí yóò jáde fúnra rẹ̀ — ènìyàn gidi ni yóò ṣàyẹ̀wò ìtàn kọ̀ọ̀kan kí ó tó farahàn lórí ojú-òpó náà.',
+      formNote: 'A óò fi ìtàn rẹ ránṣẹ́ sí wa tààrà. Kò sí ohun tí yóò jáde fúnra rẹ̀ — ènìyàn gidi ni yóò ṣàyẹ̀wò ìtàn kọ̀ọ̀kan kí ó tó farahàn lórí ojú-òpó náà.',
       nameLabel: 'Orúkọ rẹ (kì í ṣe dandan)', anonymousLabel: 'Fi èyí jáde láìní orúkọ', storyLabel: 'Kí ni ó ṣẹlẹ̀?',
       emailLabel: 'Ímeèlì rẹ (ìkọ̀kọ̀ — a óò lò ó bí a bá ní ìbéèrè kan síi, a kì yóò gbé e jáde láéláé)',
       consentLabel: 'Ó yẹ mí bí wọ́n bá ṣàyẹ̀wò ìtàn yìí tí wọ́n sì lè pín in lórí ojú-òpó yìí.',
       submitLabel: 'Fi ìtàn mi ránṣẹ́',
-      successMsg: 'À ń ṣí app ímeèlì rẹ…'
+      successMsg: 'À ń fi ìtàn rẹ ránṣẹ́…',
+      errorMsg: 'Ohun kan ṣàṣìṣe. Jọ̀wọ́ gbìyànjú lẹ́ẹ̀kan síi, tàbí kọ ìmeèlì sí wa tààrà ní contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'Ìpamọ́ Àṣírí àti Àwọn Òfin',
       p: 'Bí a ṣe ń mú àlàyé lórí ojú-òpó yìí, ní èdè tí ó rọrùn.',
       items: [
-        { q: 'Àlàyé wo ni ẹ̀yin ń kójọ?', a: 'Àwọn fọ́ọ̀mù "Rí Ìrànlọ́wọ́ Gbà" àti "Fi Ìtàn Rẹ Sílẹ̀" ń ṣí app ímeèlì tirẹ pẹ̀lú ìránṣẹ́ rẹ tí ó ti ṣetán láti fi ránṣẹ́ — a kò ṣiṣẹ́ sáfà tàbí ibi ìpamọ́ dátà kankan, nítorí náà kò sí ohun tí o kọ tí a óò tọ́jú tàbí rí kí o tó fúnra rẹ pinnu láti fi ránṣẹ́. Àwọn ìtàn àwùjọ ni a óò gbé jáde lẹ́yìn tí ènìyàn gidi bá ti ṣàyẹ̀wò wọn, o sì lè béèrè kí a ṣàtúnṣe, mú kí ìtàn rẹ jẹ́ aláìṣàkọsílẹ̀, tàbí yọ ìtàn rẹ kúrò nígbàkigbà.' },
+        { q: 'Àlàyé wo ni ẹ̀yin ń kójọ?', a: 'Àwọn fọ́ọ̀mù "Rí Ìrànlọ́wọ́ Gbà" àti "Fi Ìtàn Rẹ Sílẹ̀" máa ń fi ìránṣẹ́ rẹ ránṣẹ́ sí wa tààrà nípasẹ̀ iṣẹ́ ímeèlì (Resend) — a kò ṣiṣẹ́ ibi ìpamọ́ dátà kankan, nítorí náà kò sí ohun tí a óò tọ́jú yàtọ̀ sí ímeèlì náà fúnra rẹ̀. Àwọn ìtàn àwùjọ ni a óò gbé jáde lẹ́yìn tí ènìyàn gidi bá ti ṣàyẹ̀wò wọn, o sì lè béèrè kí a ṣàtúnṣe, mú kí ìtàn rẹ jẹ́ aláìṣàkọsílẹ̀, tàbí yọ ìtàn rẹ kúrò nígbàkigbà. Wo ìlànà ìpamọ́ àṣírí Resend fún bí wọ́n ṣe ń rí sí fífi ìránṣẹ́ ránṣẹ́.' },
         { q: 'Kí ni ẹ̀yin ń fi pamọ́ sórí ẹ̀rọ mi?', a: 'Àwọn ohun kékeré méjì péré ni a ń fi pamọ́ sí ibi ìpamọ́ àdúgbò browser rẹ: èdè tí o yàn àti ìwọ̀n lẹ́tà tí o yàn. Méjèèjì a máa dúró sórí ẹ̀rọ rẹ, a kì í fi wọ́n ránṣẹ́ sí wa láéláé.' },
         { q: 'Ṣé ẹ̀yin ń lo kúkì, àbójútó, tàbí ìtúpalẹ̀ dátà?', a: 'Kò sí kúkì olùpolówó, àwọn àkọsílẹ̀ àbójútó, tàbí ìtúpalẹ̀ dátà kankan. Ọ̀kan péré ni Google Fonts, èyí tí a ń lò láti fi hàn ọ̀rọ̀ ní onírúurú èdè — lílo rẹ̀ lè jẹ́ kí a pín àdírẹ́ẹ̀sì IP rẹ pẹ̀lú Google. Wo ìlànà ìpamọ́ àṣírí Google fún àlàyé síi.' },
         { q: 'Kí ni nípa ìpamọ́ àṣírí àwọn ọmọdé?', a: 'A kọ Common Sense Cyber fún àwọn òǹkàwé ní gbogbo ọjọ́ orí, àwọn ọmọdé pẹ̀lú, ṣùgbọ́n a kò mọ̀ọ́mọ̀ kó àlàyé ìdánimọ̀ ẹnikẹ́ni jọ. Gbogbo fọ́ọ̀mù jẹ́ àṣàyàn, a sì gba àwọn òbí tàbí olùtọ́jú níyànjú láti ṣàyẹ̀wò ìránṣẹ́ kankan kí ó tó jáde.' },
@@ -1876,10 +1890,11 @@ window.CSC_I18N = {
         { title: 'Onye ezinụlọ ma ọ bụ enyi ị tụkwasịrị obi', body: 'Ịgwa onye ị tụkwasịrị obi okwu banyere ya bụ ụzọ mbụ mara ihe mgbe niile.' }
       ],
       formTitle: 'Jụọ Anyị Ajụjụ',
-      formNote: 'Nke a ga-emeghe ngwa email gị na ozi gị edeworị. Ozugbo saịtị a malitere n\'ụzọ zuru oke, enwere ike gbanwee nke a ka ọ bụrụ fọm na-eziga ya onwe ya — na-enweghị pọp-ọpụ ọ bụla.',
+      formNote: "A na-eziga ozi gị ozugbo nye anyị — ọ dịghị mkpa ngwa email ọ bụla.",
       nameLabel: 'Aha Gị', emailLabel: 'Adreesị Email', messageLabel: 'Gịnị mere?',
       submitLabel: 'Ziga Ozi M',
-      successMsg: 'Na-emeghe ngwa email gị na ozi gị dị njikere izipụ…'
+      successMsg: 'Na-eziga ozi gị…',
+      errorMsg: 'Ihe adịghị mma mere. Biko nwaa ọzọ, ma ọ bụ zigara anyị email ozugbo na contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'Ajụjụ', h2: 'Ajụjụ A Na-ajụkarị',
@@ -1898,18 +1913,19 @@ window.CSC_I18N = {
       emptyBody: 'Bụrụ onye mbụ kesaa nke gị — ahụmahụ gị nwere ike inyere onye ọzọ aka ịmata otu aghụghọ ahụ.',
       anonymousName: 'Onye na-ekpughị aha',
       formTitle: 'Kesaa Akụkọ Gị',
-      formNote: "Nke a ga-emeghe ngwa email gị na akụkọ gị edeworị. Ọ dịghị ihe na-ebipụta onwe ya — ezigbo mmadụ na-enyocha akụkọ ọ bụla tupu ọ pụta na saịtị a.",
+      formNote: "A na-eziga akụkọ gị ozugbo nye anyị. Ọ dịghị ihe na-ebipụta onwe ya — ezigbo mmadụ na-enyocha akụkọ ọ bụla tupu ọ pụta na saịtị a.",
       nameLabel: 'Aha gị (ọ bụghị mkpa)', anonymousLabel: 'Bipụta nke a na-ekpughị aha', storyLabel: 'Gịnị mere?',
       emailLabel: 'Email gị (nzuzo — a na-eji ya naanị mgbe anyị nwere ajụjụ nleba anya, a gaghị ebipụta ya)',
       consentLabel: 'Ọ dị mma ka a nyocha akụkọ a ma kesaa ya na saịtị a.',
       submitLabel: 'Ziga Akụkọ M',
-      successMsg: 'Na-emeghe ngwa email gị…'
+      successMsg: 'Na-eziga akụkọ gị…',
+      errorMsg: 'Ihe adịghị mma mere. Biko nwaa ọzọ, ma ọ bụ zigara anyị email ozugbo na contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'Nzuzo na Usoro',
       p: "Otu anyị si eji ozi na saịtị a mee ihe, n'ụzọ dị mfe.",
       items: [
-        { q: 'Kedu ozi ndị unu na-anakọta?', a: 'Fọm "Nweta Enyemaka" na "Kesaa Akụkọ Gị" na-emeghe ngwa email gị nwere ozi gị dịworo njikere izipụ — anyị anaghị eji sava ma ọ bụ ọbá data arụ ọrụ, ya mere ọ dịghị ihe ị pịrị achọpụta ma ọ bụ na anyị ahụla tutu ruo mgbe ị ga-eji aka gị zipu ya. A na-ebipụta akụkọ obodo naanị mgbe ezigbo mmadụ nyocharala ha, ị nwekwara ike ịrịọ ka edezie, kpuchie aha, ma ọ bụ wepụ akụkọ gị mgbe ọ bụla.' },
+        { q: 'Kedu ozi ndị unu na-anakọta?', a: "Fọm \"Nweta Enyemaka\" na \"Kesaa Akụkọ Gị\" na-eziga ozi gị ozugbo nye anyị site na ọrụ email azụmahịa (Resend) — anyị anaghị eji ọbá data ọ bụla arụ ọrụ, ya mere ọ dịghị ihe a na-echekwa karịa email ahụ. A na-ebipụta akụkọ obodo naanị mgbe ezigbo mmadụ nyocharala ha, ị nwekwara ike ịrịọ ka edezie, kpuchie aha, ma ọ bụ wepụ akụkọ gị mgbe ọ bụla. Lelee amụma nzuzo Resend maka otu ha si eji nziga ozi eme ihe." },
         { q: 'Kedu ihe unu na-echekwa na ngwaọrụ m?', a: "Naanị mmasị abụọ dị nta, echekwara na nchekwa mpaghara nchọgharị gị: asụsụ ị họọrọ na ọnụ ọgụgụ mkpụrụedemede. Ha abụọ na-anọgide na ngwaọrụ gị, a naghị ezigara anyị ha ma ọlị." },
         { q: 'Ọ bụ na unu na-eji kuki, nleba anya, ma ọ bụ nyocha?', a: "Enweghị kuki mgbasa ozi, script nleba anya, ma ọ bụ nyocha nke ọ bụla. Naanị ihe dị iche bụ Google Fonts, nke a na-eji egosi ederede n'asụsụ dị iche iche — ibu ya nwere ike ikesa adreesị IP gị na Google. Lelee amụma nzuzo Google maka nkọwa ndị ọzọ." },
         { q: 'Gịnị banyere nzuzo ụmụaka?', a: 'E dere Common Sense Cyber maka ndị na-agụ agụmagụ n\'agbụrụ ọ bụla, gụnyere ụmụaka, mana anyị anaghị amata ama anakọta ozi nkeonwe onye ọ bụla. Fọm ọ bụla bụ nhọrọ, anyị na-akwado ka nne na nna ma ọ bụ onye nlekọta nyochaa ozi ọ bụla tupu ezipụ ya.' },
@@ -2105,10 +2121,11 @@ window.CSC_I18N = {
         { title: 'Dan gida ko aboki da ka amince da shi', body: 'Yin magana da wanda ka amince da shi koyaushe mataki ne na farko mai hikima.' }
       ],
       formTitle: 'Yi Mana Tambaya',
-      formNote: 'Wannan zai buɗe manhajar imel ɗinka tare da saƙonka da aka riga aka rubuta. Da zarar shafin ya fara aiki sosai, za a iya musanya wannan da fom da zai aika kai tsaye — ba tare da wani tsallake-tsallake ba.',
+      formNote: 'Ana aika saƙonka kai tsaye zuwa gare mu — babu bukatar wata manhajar imel.',
       nameLabel: 'Sunanka', emailLabel: 'Adireshin Imel', messageLabel: 'Me ya faru?',
       submitLabel: 'Aika Saƙona',
-      successMsg: 'Ana buɗe manhajar imel ɗinka tare da saƙonka a shirye don aikawa…'
+      successMsg: 'Ana aika saƙonka…',
+      errorMsg: 'Wani abu ya faru ba daidai ba. Da fatan za a sake gwadawa, ko ka aiko mana imel kai tsaye a contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'Tambayoyi', h2: 'Tambayoyin da Ake Yawan Yi',
@@ -2127,18 +2144,19 @@ window.CSC_I18N = {
       emptyBody: 'Ka zama na farko da zai raba nasa — abin da ya faru da kai zai iya taimaka wa wani ya gane irin wannan zamba.',
       anonymousName: 'Ba a bayyana suna ba',
       formTitle: 'Raba Labarinka',
-      formNote: 'Wannan zai buɗe manhajar imel ɗinka tare da labarinka da aka riga aka rubuta. Babu abin da ake buga shi kai tsaye — ainihin mutum ne ke duba kowane labari kafin ya bayyana a shafin.',
+      formNote: 'Ana aika labarinka kai tsaye zuwa gare mu. Babu abin da ake buga shi kai tsaye — ainihin mutum ne ke duba kowane labari kafin ya bayyana a shafin.',
       nameLabel: 'Sunanka (ba tilas ba)', anonymousLabel: 'Buga wannan ba tare da bayyana suna ba', storyLabel: 'Me ya faru?',
       emailLabel: 'Imel ɗinka (na sirri — ana amfani da shi ne kawai idan muna da tambaya ta biyo baya, ba za a taɓa buga shi ba)',
       consentLabel: 'Na yarda a duba wannan labarin kuma a iya raba shi a wannan shafin.',
       submitLabel: 'Aika Labarina',
-      successMsg: 'Ana buɗe manhajar imel ɗinka…'
+      successMsg: 'Ana aika labarinka…',
+      errorMsg: 'Wani abu ya faru ba daidai ba. Da fatan za a sake gwadawa, ko ka aiko mana imel kai tsaye a contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'Sirri da Sharuɗɗa',
       p: 'Yadda muke kula da bayanai a wannan shafin, cikin sauƙin harshe.',
       items: [
-        { q: 'Waɗanne bayanai kuke tattarawa?', a: "Fom ɗin \"Nemi Taimako\" da \"Raba Labarinka\" suna buɗe manhajar imel ɗinka tare da saƙonka a shirye don aikawa — ba mu gudanar da sava ko database ba, don haka babu abin da ka rubuta da ake ajiyewa ko da mu gani sai ka zaɓi da kanka ka aika. Ana buga labaran al'umma ne kawai bayan ainihin mutum ya duba su, kuma kana iya neman a gyara, a ɓoye suna, ko a cire labarinka a kowane lokaci." },
+        { q: 'Waɗanne bayanai kuke tattarawa?', a: "Fom ɗin \"Nemi Taimako\" da \"Raba Labarinka\" suna aika saƙonka kai tsaye zuwa gare mu ta hanyar sabis na imel na ciniki (Resend) — ba mu gudanar da wata database ba, don haka babu abin da ake ajiyewa ban da wannan imel. Ana buga labaran al'umma ne kawai bayan ainihin mutum ya duba su, kuma kana iya neman a gyara, a ɓoye suna, ko a cire labarinka a kowane lokaci. Duba manufar sirri ta Resend don sanin yadda suke kula da isar da saƙonni." },
         { q: "Me kuke ajiyewa a na'urata?", a: "Abubuwa biyu ne kawai, ana ajiye su a cikin ma'ajin gida na burauzarka: harshen da ka zaɓa da girman rubutu. Dukansu suna zama a na'urarka kawai, ba a taɓa aika su gare mu ba." },
         { q: 'Kuna amfani da kukiz, bibiya, ko bincike?', a: 'Babu kukiz na talla, rubutun bibiya, ko wani irin bincike. Banda shi kawai shine Google Fonts, wanda ake amfani da shi don nuna rubutu cikin harsuna daban-daban — loda shi na iya raba adireshin IP ɗinka da Google. Duba manufar sirri ta Google don ƙarin bayani.' },
         { q: 'Yaya game da sirrin yara?', a: "An rubuta Common Sense Cyber ne domin masu karatu na kowane shekaru, har da yara, amma ba mu tattara bayanan sirri na kowa da gangan ba. Kowane fom zaɓi ne, kuma muna ƙarfafa iyaye ko mai kula da yaro ya duba saƙon kafin a aika shi." },
@@ -2334,10 +2352,11 @@ window.CSC_I18N = {
         { title: 'Family member or friend wey you trust', body: 'To talk am well well with person wey you trust na always smart first step.' }
       ],
       formTitle: 'Ask Us Question',
-      formNote: 'Dis one go open your email app with your message wey don already dey there. Once de site don dey live, dem fit change dis one to form wey go send by itself — no pop-up needed.',
+      formNote: 'We dey send your message go us straight — no need for any email app.',
       nameLabel: 'Your Name', emailLabel: 'Email Address', messageLabel: 'Wetin happen?',
       submitLabel: 'Send My Message',
-      successMsg: 'We dey open your email app with your message ready to send…'
+      successMsg: 'We dey send your message…',
+      errorMsg: 'Something go wrong. Abeg try again, or email us straight for contact@commonsensecyber.org.'
     },
     faq: {
       eyebrow: 'Questions', h2: 'Wetin People Dey Ask',
@@ -2356,18 +2375,19 @@ window.CSC_I18N = {
       emptyBody: 'Be de first person to share yours — your own experience fit helep another person recognize de same scam.',
       anonymousName: 'Anonymous',
       formTitle: 'Share Your Story',
-      formNote: 'Dis one go open your email app with your story wey don already dey there. Nothing go post by itself — real person go review every story before e show for de site.',
+      formNote: 'We dey send your story go us straight. Nothing go post by itself — real person go review every story before e show for de site.',
       nameLabel: 'Your Name (no compulsory)', anonymousLabel: 'Post dis one anonymously', storyLabel: 'Wetin happen?',
       emailLabel: 'Your Email (private — na only if we get follow-up question we go use am, we no go ever publish am)',
       consentLabel: 'I dey okay make dem review dis story and fit share am for dis site.',
       submitLabel: 'Send My Story',
-      successMsg: 'We dey open your email app…'
+      successMsg: 'We dey send your story…',
+      errorMsg: 'Something go wrong. Abeg try again, or email us straight for contact@commonsensecyber.org.'
     },
     legal: {
       h2: 'Privacy & Rules',
       p: 'How we dey handle information for dis site, for plain language.',
       items: [
-        { q: 'Wetin una dey collect?', a: 'De "Find Help" and "Share Your Story" forms go open your own email app with your message wey don ready to send — we no dey run any server or database, so nothing wey you type no go store or we no go see am until you yourself decide to send am. We dey post community stories only after real person don review dem, and you fit ask make dem edit, anonymize, or remove your story anytime.' },
+        { q: 'Wetin una dey collect?', a: 'De "Find Help" and "Share Your Story" forms dey send your message straight go us through one transactional email service (Resend) — we no dey run any database, so nothing dey store apart from dat email. We dey post community stories only after real person don review dem, and you fit ask make dem edit, anonymize, or remove your story anytime. Check Resend privacy policy make you sabi how dem dey handle message delivery.' },
         { q: 'Wetin una dey store for my device?', a: 'Just two small preference, wey dey save inside your browser local storage: de language wey you choose and text-size setting. Both of dem go stay for your device, we no dey ever send dem to us.' },
         { q: 'Una dey use cookies, tracking, or analytics?', a: 'No advertising cookies, tracking script, or analytics of any kind. De only exception na Google Fonts, wey we dey use show text for different languages — to load am fit share your IP address with Google. Check Google privacy policy for more details.' },
         { q: 'Wetin about children privacy?', a: 'Dem write Common Sense Cyber for readers of every age, including children, but we no dey knowingly collect personal information from anybody. Every form na optional, and we dey encourage make parent or guardian check anything before dem send am.' },

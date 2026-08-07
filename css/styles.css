@@ -946,6 +946,17 @@ html[dir="rtl"] .cp-status-panel { border-left: none; border-right: 4px solid; }
   font-weight: 600;
 }
 .form-success.show { display: block; }
+.form-error {
+  display: none;
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  margin-top: var(--space-2);
+  font-weight: 600;
+}
+.form-error.show { display: block; }
+.hp-field { position: absolute; left: -9999px; top: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
 .form-field-checkbox { display: flex; align-items: flex-start; gap: 10px; margin-bottom: var(--space-3); }
 .form-field-checkbox input { width: 18px; height: 18px; margin-top: 3px; flex-shrink: 0; accent-color: var(--color-accent); }
