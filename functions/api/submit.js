@@ -65,7 +65,7 @@ export async function onRequestPost(context) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      from: 'Common Sense Cyber <forms@commonsensecyber.org>',
+      from: 'Common Sense Cyber <forms@contact.commonsensecyber.org>',
       to: 'contact@commonsensecyber.org',
       reply_to: replyTo,
       subject,
