@@ -469,7 +469,7 @@
      with a hosted form service (Formspree, Netlify Forms, etc.)
      once the site has a live URL to point it at.
      ============================================================ */
-  const CONTACT_EMAIL = 'hello@commonsensecyber.example';
+  const CONTACT_EMAIL = 'contact@commonsensecyber.org';
 
   function initForm() {
     const form = document.getElementById('helpForm');
