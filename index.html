@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="pageTitleTag">Common Sense Cyber — Cybersecurity Made Simple</title>
+<meta name="description" id="metaDescriptionTag" content="Common Sense Cyber teaches everyday online safety in plain language — for kids, seniors, and everyone in between. No jargon, no judgment.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&family=Noto+Sans:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Cairo:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/translations.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="skipLink">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="#top">
+      <img src="assets/logo.svg" data-i18n-attr="alt:logoAlt" alt="Common Sense Cyber logo — a smiling shield mascot">
+      <span class="brand-name">Common Sense Cyber<span data-i18n="brand.tagline">Online safety, plainly explained</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="#basics" data-i18n="nav.basics">Learn the Basics</a></li>
+        <li><a href="#tracks" data-i18n="nav.tracks">Kids &amp; Seniors</a></li>
+        <li><a href="#story" data-i18n="nav.story">Real Stories</a></li>
+        <li><a href="#quiz" data-i18n="nav.quiz">Quiz</a></li>
+        <li><a href="#resources" data-i18n="nav.resources">Resources</a></li>
+        <li><a href="#check-protect" data-i18n="nav.checkProtect">Check &amp; Protect</a></li>
+        <li><a href="#report" data-i18n="nav.report">Get Help</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-tools">
+      <select class="lang-select" id="langSelect" aria-label="Choose language" data-i18n-attr="aria-label:header.lang"></select>
+      <button class="btn-icon" id="textSizeToggle" type="button" aria-pressed="false" data-i18n-attr="aria-label:header.textSize" aria-label="Increase text size for easier reading">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20 L9 6 L14 20 M5.5 15 h7"/><path d="M16 20 L20 10 L20 20 M22 14 h-4"/></svg>
+      </button>
+      <button class="btn-icon nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="mainNav" data-i18n-attr="aria-label:header.menuOpen" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="container">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n="hero.eyebrow">Free &amp; friendly online safety</span>
+        <h1 data-i18n="hero.h1">Cybersecurity that speaks your language.</h1>
+        <p data-i18n="hero.p">No jargon. No judgment. Just simple, warm guidance for spotting scams, protecting your accounts, and staying safe online — whether you're 9 or 90.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#basics" data-i18n="hero.ctaPrimary">Start Learning the Basics</a>
+          <a class="btn btn-secondary" href="#story" data-i18n="hero.ctaSecondary">Watch a Real Story</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong data-i18n="hero.stat1">6</strong><span data-i18n="hero.stat1Label">Plain-language topics</span></div>
+          <div><strong data-i18n="hero.stat2">2</strong><span data-i18n="hero.stat2Label">Tracks for kids &amp; seniors</span></div>
+          <div><strong><span data-i18n="hero.stat3">5</span>&nbsp;<span data-i18n="meta.minLabel">min</span></strong><span data-i18n="hero.stat3Label">Scam-sense quiz</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-blob" aria-hidden="true"></div>
+        <img src="assets/logo.svg" data-i18n-attr="alt:heroArtAlt" alt="Illustration of the Common Sense Cyber mascot, a smiling shield">
+        <div class="hero-badge badge-lock" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+        <div class="hero-badge badge-check" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12.5l2 2 4-4.5"/></svg></div>
+        <div class="hero-badge badge-wifi" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a11 11 0 0 1 14 0M8.5 16a6 6 0 0 1 7 0M12 19.5h.01"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MISSION ============ -->
+  <section class="section section-decor-wrap" id="mission">
+    <div class="deco-blob mint" aria-hidden="true" style="inset:-25% -15%;"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="mission.eyebrow">Why we're here</span>
+        <h2 data-i18n="mission.h2">Everyone deserves to feel safe online — without needing a tech degree.</h2>
+        <p data-i18n="mission.p">Most cybersecurity advice is written for people who already understand cybersecurity.</p>
+      </div>
+      <div class="pillars" id="pillarsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ LEARN THE BASICS ============ -->
+  <section class="section section-alt" id="basics">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="basics.eyebrow">Learn the basics</span>
+        <h2 data-i18n="basics.h2">Six things worth knowing — explained without the jargon.</h2>
+        <p data-i18n="basics.p">Tap any topic to see a few practical tips you can use today.</p>
+      </div>
+      <div class="card-grid" id="tipGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ AUDIENCE TRACKS ============ -->
+  <section class="section" id="tracks">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="tracks.eyebrow">Made for you</span>
+        <h2 data-i18n="tracks.h2">Guidance tailored to where you're starting from.</h2>
+      </div>
+      <div class="tracks" id="tracksGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ STORY / VIDEO ============ -->
+  <section class="section section-alt" id="story">
+    <div class="container">
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center;">
+        <span class="eyebrow" data-i18n="anatomy.eyebrow">The pattern behind the panic</span>
+        <h2 data-i18n="anatomy.h2">Anatomy of a scam call</h2>
+        <p style="margin-inline:auto;" data-i18n="anatomy.p">Almost every phone or text scam follows the same four moves.</p>
+      </div>
+
+      <div class="anatomy" id="anatomyGrid"></div>
+
+      <div class="anatomy-callout reveal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6z"/><path d="M9 12.5l2 2 4-4.5"/></svg>
+        <p><strong data-i18n="anatomy.calloutStrong">You can break the pattern at any step.</strong> <span data-i18n="anatomy.calloutBody">Hang up, call the person back.</span></p>
+      </div>
+
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center; margin-top: var(--space-6);">
+        <span class="eyebrow" data-i18n="story.eyebrow">Real stories</span>
+        <h2 data-i18n="story.h2">What real scam calls actually sound like.</h2>
+        <p style="margin-inline:auto;" data-i18n="story.p">Scam calls work because they create panic and urgency.</p>
+      </div>
+
+      <div class="story-list" id="storyList"></div>
+    </div>
+  </section>
+
+  <!-- ============ RESOURCES ============ -->
+  <section class="section" id="resources">
+    <div class="container">
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center;">
+        <span class="eyebrow" data-i18n="resources.eyebrow">Stay informed</span>
+        <h2 data-i18n="resources.h2">Where to check for known scams and fraud alerts.</h2>
+        <p style="margin-inline:auto;" data-i18n="resources.p">These trusted organizations track active scams and publish alerts.</p>
+      </div>
+      <div class="resource-groups" id="resourceGroups"></div>
+    </div>
+  </section>
+
+  <!-- ============ CHECK & PROTECT ============ -->
+  <section class="section section-alt" id="check-protect">
+    <div class="container">
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center;">
+        <span class="eyebrow" data-i18n="checkProtect.eyebrow">Take action</span>
+        <h2 data-i18n="checkProtect.h2">Check &amp; Protect</h2>
+        <p style="margin-inline:auto;" data-i18n="checkProtect.p">See what's exposed. Fix what's vulnerable. Protect your accounts.</p>
+      </div>
+
+      <div class="cp-blocks">
+
+        <!-- Breach check -->
+        <div class="cp-block reveal" id="cp-breach">
+          <div class="cp-block-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><line x1="4" y1="4" x2="20" y2="20"/></svg></div>
+          <h3 data-i18n="checkProtect.breach.h3">Check if your email has appeared in a data breach</h3>
+          <p data-i18n="checkProtect.breach.p1">A data breach happens when a company's data is stolen — usernames, emails, and sometimes passwords end up in the hands of criminals. It happens to big, well-known companies too, and it's not your fault.</p>
+          <p data-i18n="checkProtect.breach.p2">Have I Been Pwned is a free, independent tool used by security professionals worldwide. It lets you check whether your email address has shown up in a known breach — without ever asking for your password.</p>
+          <ul>
+            <li data-i18n="checkProtect.breach.tip1">If you appear in a breach, change the password for that account — and any other account using the same password.</li>
+            <li data-i18n="checkProtect.breach.tip2">Turn on two-step verification if you haven't already (see below).</li>
+            <li data-i18n="checkProtect.breach.tip3">Appearing in a breach doesn't automatically mean your current account is compromised — but it's a good reason to double-check.</li>
+          </ul>
+          <a class="btn btn-primary" href="https://haveibeenpwned.com/" target="_blank" rel="noopener">
+            <span data-i18n="checkProtect.breach.cta">Check on Have I Been Pwned</span> ↗
+          </a>
+          <p class="cp-note" data-i18n="checkProtect.breach.note">You're leaving Common Sense Cyber for a trusted external tool. We don't send, store, or see your email address.</p>
+        </div>
+
+        <!-- Password manager -->
+        <div class="cp-block reveal" id="cp-password-manager">
+          <div class="cp-block-icon" style="background:#fbe6c0; color:var(--color-secondary-dark);" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M14 9l2 2"/></svg></div>
+          <h3 data-i18n="checkProtect.passwordManager.h3">Use a password manager</h3>
+          <p data-i18n="checkProtect.passwordManager.p">A password manager creates and remembers a long, unique password for every account, so you only have to remember one. Reusing passwords is one of the biggest risks online — if one site is breached, criminals try that same password everywhere else.</p>
+          <div class="cp-compare-grid">
+            <div class="cp-compare-card">
+              <h4 data-i18n="checkProtect.passwordManager.browserTitle">Browser-based</h4>
+              <ul>
+                <li data-i18n="checkProtect.passwordManager.browser1">Built into Chrome, Safari, Firefox, and Edge — no extra app needed.</li>
+                <li data-i18n="checkProtect.passwordManager.browser2">Free, and syncs automatically if you're signed in.</li>
+                <li data-i18n="checkProtect.passwordManager.browser3">A good starting point, especially if you mostly use one browser.</li>
+              </ul>
+            </div>
+            <div class="cp-compare-card">
+              <h4 data-i18n="checkProtect.passwordManager.dedicatedTitle">Dedicated apps</h4>
+              <ul>
+                <li data-i18n="checkProtect.passwordManager.dedicated1">Works across every browser, app, and device — not just one.</li>
+                <li data-i18n="checkProtect.passwordManager.dedicated2">Often includes extras like breach alerts and secure sharing.</li>
+                <li data-i18n="checkProtect.passwordManager.dedicated3">Worth it if you use multiple browsers or devices, or want more control.</li>
+              </ul>
+            </div>
+          </div>
+          <h4 style="margin-top:var(--space-3);" data-i18n="checkProtect.passwordManager.lookForTitle">What to look for when choosing one</h4>
+          <ul>
+            <li data-i18n="checkProtect.passwordManager.lookFor1">Strong, independently-audited encryption.</li>
+            <li data-i18n="checkProtect.passwordManager.lookFor2">Works across the devices you actually use.</li>
+            <li data-i18n="checkProtect.passwordManager.lookFor3">A clear, honest privacy policy.</li>
+            <li data-i18n="checkProtect.passwordManager.lookFor4">Support for passkeys and two-step verification.</li>
+          </ul>
+        </div>
+
+        <!-- MFA -->
+        <div class="cp-block reveal" id="cp-mfa">
+          <div class="cp-block-icon" style="background:#d9efe9; color:var(--color-accent-dark);" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+          <h3 data-i18n="checkProtect.mfa.h3">Turn on two-step verification (MFA)</h3>
+          <p data-i18n="checkProtect.mfa.p">Two-step verification — also called MFA or 2FA — adds a second check after your password, so a stolen password alone isn't enough to break in. It's one of the single best things you can do to protect an account.</p>
+          <ul class="cp-type-list">
+            <li><span class="cp-badge strong" data-i18n="checkProtect.mfa.type1Badge">Strong</span> <strong data-i18n="checkProtect.mfa.type1Title">Authenticator app</strong> <span data-i18n="checkProtect.mfa.type1Body">— generates a changing code on your phone.</span></li>
+            <li><span class="cp-badge strongest" data-i18n="checkProtect.mfa.type2Badge">Strongest</span> <strong data-i18n="checkProtect.mfa.type2Title">Security key</strong> <span data-i18n="checkProtect.mfa.type2Body">— a small physical device you tap or plug in.</span></li>
+            <li><span class="cp-badge strongest" data-i18n="checkProtect.mfa.type3Badge">Strongest</span> <strong data-i18n="checkProtect.mfa.type3Title">Passkey</strong> <span data-i18n="checkProtect.mfa.type3Body">— see below.</span> <a href="#cp-passkeys" data-i18n="checkProtect.mfa.type3Link">Learn more</a></li>
+            <li><span class="cp-badge weaker" data-i18n="checkProtect.mfa.type4Badge">Weaker, but still helpful</span> <strong data-i18n="checkProtect.mfa.type4Title">Text message (SMS) codes</strong> <span data-i18n="checkProtect.mfa.type4Body">— better than nothing, but codes can sometimes be intercepted.</span></li>
+            <li><span class="cp-badge backup" data-i18n="checkProtect.mfa.type5Badge">Backup only</span> <strong data-i18n="checkProtect.mfa.type5Title">Backup codes</strong> <span data-i18n="checkProtect.mfa.type5Body">— not for everyday use; save these somewhere safe in case you lose access.</span></li>
+          </ul>
+          <h4 style="margin-top:var(--space-3);" data-i18n="checkProtect.mfa.platformsTitle">Set it up on your accounts</h4>
+          <div class="cp-platform-grid">
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#ffffff" stroke="#e3d9cb" stroke-width="2"/><text x="20" y="28" font-family="Georgia, serif" font-weight="700" font-size="22" fill="#4285F4" text-anchor="middle">G</text></svg>
+              <strong>Google</strong><a href="https://myaccount.google.com/security" target="_blank" rel="noopener" data-i18n="checkProtect.mfa.officialGuide">Official guide ↗</a>
+            </div>
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#ffffff" stroke="#e3d9cb" stroke-width="2"/><rect x="7" y="7" width="11" height="11" fill="#F25022"/><rect x="22" y="7" width="11" height="11" fill="#7FBA00"/><rect x="7" y="22" width="11" height="11" fill="#00A4EF"/><rect x="22" y="22" width="11" height="11" fill="#FFB900"/></svg>
+              <strong>Microsoft</strong><a href="https://account.microsoft.com/security" target="_blank" rel="noopener" data-i18n="checkProtect.mfa.officialGuide">Official guide ↗</a>
+            </div>
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#111111"/><path d="M23.5 12.8c.9-1.1 1.5-2.6 1.3-4.1-1.3.1-2.9.9-3.8 2-.8.9-1.5 2.5-1.3 3.9 1.4.1 2.9-.7 3.8-1.8z" fill="#fff"/><path d="M27.6 24.4c-.6 1.3-1.3 2.6-2.3 3.7-1 1.1-2 2.2-3.5 2.2-1.5 0-1.9-.9-3.6-.9-1.7 0-2.2.9-3.6.9-1.4 0-2.4-1.1-3.4-2.3-2-2.4-3.6-6.7-1.5-9.7 1-1.5 2.8-2.5 4.6-2.5 1.5 0 2.5.9 3.6.9 1.1 0 2.6-1.1 4.5-.9.8.03 3 .3 4.4 2.3-.1.07-2.6 1.5-2.6 4.3 0 3.3 2.9 4.4 2.9 4.4z" fill="#fff"/></svg>
+              <strong>Apple</strong><a href="https://support.apple.com/en-us/HT204915" target="_blank" rel="noopener" data-i18n="checkProtect.mfa.officialGuide">Official guide ↗</a>
+            </div>
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1877F2"/><text x="20" y="28" font-family="Georgia, serif" font-weight="700" font-size="22" fill="#ffffff" text-anchor="middle">f</text></svg>
+              <strong>Facebook</strong><a href="https://www.facebook.com/help/148233965247823" target="_blank" rel="noopener" data-i18n="checkProtect.mfa.officialGuide">Official guide ↗</a>
+            </div>
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FEC053"/><stop offset="45%" stop-color="#E1306C"/><stop offset="100%" stop-color="#5851DB"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="url(#igGrad)"/><rect x="10" y="10" width="20" height="20" rx="6" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="20" cy="20" r="5.5" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="27" cy="13" r="1.6" fill="#fff"/></svg>
+              <strong>Instagram</strong><a href="https://help.instagram.com/566810106808145" target="_blank" rel="noopener" data-i18n="checkProtect.mfa.officialGuide">Official guide ↗</a>
+            </div>
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#131A22"/><path d="M9 24c6 5 16 5 22 0" fill="none" stroke="#FF9900" stroke-width="2.6" stroke-linecap="round"/><path d="M27 22.5l4 1.5-1.5 4" fill="none" stroke="#FF9900" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <strong>Amazon</strong><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GXPUJXTUX5WD9J4H" target="_blank" rel="noopener" data-i18n="checkProtect.mfa.officialGuide">Official guide ↗</a>
+            </div>
+            <div class="cp-platform-card">
+              <svg class="cp-platform-logo" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#d9efe9"/><path d="M8 16 L20 9 L32 16 Z" fill="#155e53"/><rect x="10" y="17" width="4" height="12" fill="#155e53"/><rect x="18" y="17" width="4" height="12" fill="#155e53"/><rect x="26" y="17" width="4" height="12" fill="#155e53"/><rect x="7" y="30" width="26" height="3" rx="1" fill="#155e53"/></svg>
+              <strong data-i18n="checkProtect.mfa.bankingTitle">Banking</strong><span class="cp-no-link" data-i18n="checkProtect.mfa.bankingBody">Check your bank's app or website settings</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Passkeys -->
+        <div class="cp-block reveal" id="cp-passkeys">
+          <div class="cp-block-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6z"/></svg></div>
+          <h3 data-i18n="checkProtect.passkeys.h3">What's a passkey?</h3>
+          <p data-i18n="checkProtect.passkeys.p1">A passkey replaces your password with your device's fingerprint, face, or screen lock. Instead of typing anything, you approve the sign-in on a device you already trust.</p>
+          <p data-i18n="checkProtect.passkeys.p2">Passkeys are built to resist phishing: they're tied to the exact website or app they were created for, so a fake look-alike site simply can't use them — even if it tricks you into visiting.</p>
+          <p data-i18n="checkProtect.passkeys.p3">Look for "Passkey" in the security settings of accounts like Google, Apple, and Microsoft — more services are adding support all the time.</p>
+        </div>
+
+        <!-- Account recovery -->
+        <div class="cp-block reveal" id="cp-recovery">
+          <div class="cp-block-icon" style="background:#fbe6c0; color:var(--color-secondary-dark);" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/></svg></div>
+          <h3 data-i18n="checkProtect.recovery.h3">Prepare for account recovery — before you need it</h3>
+          <p data-i18n="checkProtect.recovery.p">The best time to set up account recovery is before something goes wrong. A few minutes now can save you from being permanently locked out later.</p>
+          <ul>
+            <li><strong data-i18n="checkProtect.recovery.item1Label">Recovery email</strong> <span data-i18n="checkProtect.recovery.item1Body">— a second email address only you can access.</span></li>
+            <li><strong data-i18n="checkProtect.recovery.item2Label">Recovery phone number</strong> <span data-i18n="checkProtect.recovery.item2Body">— kept up to date, even if you change numbers.</span></li>
+            <li><strong data-i18n="checkProtect.recovery.item3Label">Backup codes</strong> <span data-i18n="checkProtect.recovery.item3Body">— download or print them, and store them somewhere safe (not in your email inbox).</span></li>
+            <li><strong data-i18n="checkProtect.recovery.item4Label">Trusted devices</strong> <span data-i18n="checkProtect.recovery.item4Body">— check which devices are currently trusted on your important accounts.</span></li>
+            <li><strong data-i18n="checkProtect.recovery.item5Label">Emergency access</strong> <span data-i18n="checkProtect.recovery.item5Body">— some services let a trusted contact help you regain access if you're ever locked out.</span></li>
+          </ul>
+        </div>
+
+        <!-- Security checkup -->
+        <div class="cp-block reveal" id="cp-checkup">
+          <div class="cp-block-icon" style="background:#d9efe9; color:var(--color-accent-dark);" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12.5l2 2 4-4.5"/></svg></div>
+          <h3 data-i18n="checkProtect.checkup.h3">Your security checkup</h3>
+          <p data-i18n="checkProtect.checkup.p">Answer honestly — nothing here is sent anywhere. It stays on this page, on your device.</p>
+
+          <fieldset style="border:none; padding:0; margin:0;">
+            <legend class="sr-only" data-i18n="checkProtect.checkup.h3">Your security checkup</legend>
+            <ul class="cp-check-list">
+              <li class="cp-check-item"><input type="checkbox" id="cp1" class="cp-check"><label for="cp1" data-i18n="checkProtect.checkup.item1">I use unique passwords for my important accounts</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp2" class="cp-check"><label for="cp2" data-i18n="checkProtect.checkup.item2">Two-step verification is turned on for my email</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp3" class="cp-check"><label for="cp3" data-i18n="checkProtect.checkup.item3">Two-step verification is turned on for my banking</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp4" class="cp-check"><label for="cp4" data-i18n="checkProtect.checkup.item4">I have recovery methods set up on my important accounts</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp5" class="cp-check"><label for="cp5" data-i18n="checkProtect.checkup.item5">My devices install updates automatically</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp6" class="cp-check"><label for="cp6" data-i18n="checkProtect.checkup.item6">I lock my phone and computer when I'm not using them</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp7" class="cp-check"><label for="cp7" data-i18n="checkProtect.checkup.item7">I verify unusual money or emergency requests independently before acting</label></li>
+              <li class="cp-check-item"><input type="checkbox" id="cp8" class="cp-check"><label for="cp8" data-i18n="checkProtect.checkup.item8">I know where to report a scam if it happens to me</label></li>
+            </ul>
+          </fieldset>
+
+          <div id="cpStatus" aria-live="polite">
+            <div class="cp-status-panel" data-band="strong" hidden>
+              <h4 data-i18n="checkProtect.checkup.strongLabel">Strong protection</h4>
+              <p data-i18n="checkProtect.checkup.strongBody">You're doing a great job protecting your accounts. Keep it up, and revisit this checkup occasionally as your accounts change.</p>
+            </div>
+            <div class="cp-status-panel" data-band="okay" hidden>
+              <h4 data-i18n="checkProtect.checkup.okayLabel">A few improvements recommended</h4>
+              <p data-i18n="checkProtect.checkup.okayBody">You've got a solid foundation. A couple of small changes below would make a real difference.</p>
+            </div>
+            <div class="cp-status-panel" data-band="needs" hidden>
+              <h4 data-i18n="checkProtect.checkup.needsLabel">Important actions recommended</h4>
+              <p data-i18n="checkProtect.checkup.needsBody">A few important gaps could leave your accounts vulnerable. The steps below are a great place to start — you don't have to do them all today.</p>
+            </div>
+          </div>
+
+          <h4 style="margin-top:var(--space-3);" data-i18n="checkProtect.checkup.recommendedTitle">Recommended next steps</h4>
+          <ul class="cp-rec-list" id="cpRecList">
+            <li class="cp-rec" data-for="cp1" hidden><span data-i18n="checkProtect.checkup.rec1">Consider a password manager to create and remember unique passwords.</span> <a href="#cp-password-manager" data-i18n="checkProtect.checkup.recLink">Learn more</a></li>
+            <li class="cp-rec" data-for="cp2" hidden><span data-i18n="checkProtect.checkup.rec2">Your email is the key to every other account — turn on two-step verification first.</span> <a href="#cp-mfa" data-i18n="checkProtect.checkup.recLink">Learn more</a></li>
+            <li class="cp-rec" data-for="cp3" hidden><span data-i18n="checkProtect.checkup.rec3">Check your bank's app or website for a two-step verification or MFA option.</span> <a href="#cp-mfa" data-i18n="checkProtect.checkup.recLink">Learn more</a></li>
+            <li class="cp-rec" data-for="cp4" hidden><span data-i18n="checkProtect.checkup.rec4">Add a recovery email, phone number, or backup codes before you need them.</span> <a href="#cp-recovery" data-i18n="checkProtect.checkup.recLink">Learn more</a></li>
+            <li class="cp-rec" data-for="cp5" hidden><span data-i18n="checkProtect.checkup.rec5">Turn on automatic updates — most security fixes arrive through routine updates.</span></li>
+            <li class="cp-rec" data-for="cp6" hidden><span data-i18n="checkProtect.checkup.rec6">Set a short auto-lock time with a PIN, passcode, or biometric lock.</span></li>
+            <li class="cp-rec" data-for="cp7" hidden><span data-i18n="checkProtect.checkup.rec7">Always call back on a number you already have — never one given to you in the message or call.</span></li>
+            <li class="cp-rec" data-for="cp8" hidden><span data-i18n="checkProtect.checkup.rec8">Bookmark the Canadian Anti-Fraud Centre and the Resources section for when you need them.</span> <a href="#resources" data-i18n="checkProtect.checkup.recLink">Learn more</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUIZ ============ -->
+  <section class="section section-decor-wrap" id="quiz">
+    <div class="deco-blob peach" aria-hidden="true" style="inset:-25% -15%;"></div>
+    <div class="container">
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center;">
+        <span class="eyebrow" data-i18n="quiz.eyebrow">Test your scam sense</span>
+        <h2 data-i18n="quiz.h2">Think you can spot a scam? Give it a try.</h2>
+        <p style="margin-inline:auto;" data-i18n="quiz.p">Five quick real-world scenarios.</p>
+      </div>
+
+      <div class="quiz-panel reveal" id="quizPanel">
+        <div class="quiz-progress" id="quizProgress" aria-hidden="true"></div>
+        <div id="quizBody"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REPORT A SCAM ============ -->
+  <section class="section section-alt" id="report">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow" data-i18n="report.eyebrow">Get help</span>
+        <h2 data-i18n="report.h2">Think you've spotted a scam — or been targeted by one?</h2>
+        <p data-i18n="report.p">You're not alone, and it's not too late to act.</p>
+      </div>
+
+      <div class="report-layout">
+        <div class="reveal">
+          <h3 data-i18n="report.resourcesTitle">Trusted places to report</h3>
+          <ul class="resource-list" id="resourceList"></ul>
+        </div>
+
+        <div class="reveal">
+          <h3 data-i18n="report.formTitle">Ask us a question</h3>
+          <p class="form-note" data-i18n="report.formNote">This opens your email app with your message pre-filled.</p>
+          <form id="helpForm" novalidate>
+            <div class="form-field">
+              <label for="name" data-i18n="report.nameLabel">Your name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email" data-i18n="report.emailLabel">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="message" data-i18n="report.messageLabel">What happened?</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit" data-i18n="report.submitLabel">Send my message</button>
+            <div class="form-success" id="formSuccess" role="status" data-i18n="report.successMsg">Opening your email app…</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center;">
+        <span class="eyebrow" data-i18n="faq.eyebrow">Questions</span>
+        <h2 data-i18n="faq.h2">Frequently asked questions</h2>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" data-i18n-attr="alt:footerLogoAlt" alt="Common Sense Cyber logo">
+        <div>
+          <strong style="font-family:var(--font-heading); font-size:1.1rem;">Common Sense Cyber</strong>
+          <div style="font-size:0.85rem; color:#c9b8ac;" data-i18n="footer.tagline">Online safety, plainly explained.</div>
+        </div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#basics" data-i18n="nav.basics">Learn the Basics</a></li>
+        <li><a href="#tracks" data-i18n="nav.tracks">Kids &amp; Seniors</a></li>
+        <li><a href="#quiz" data-i18n="nav.quiz">Quiz</a></li>
+        <li><a href="#resources" data-i18n="nav.resources">Resources</a></li>
+        <li><a href="#check-protect" data-i18n="nav.checkProtect">Check &amp; Protect</a></li>
+        <li><a href="#report" data-i18n="nav.report">Get Help</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p style="margin:0;" data-i18n="footer.disclaimer">Common Sense Cyber is an independent educational resource...</p>
+      <p style="margin:8px 0 0;" id="copyrightLine">© <span id="year"></span> Common Sense Cyber. Built with care.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="poster1-title">
+  <title id="poster1-title">Illustration of a ringing phone with an urgent alert bubble</title>
+  <defs>
+    <linearGradient id="p1bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde3d4"/>
+      <stop offset="100%" stop-color="#f8c9a8"/>
+    </linearGradient>
+    <linearGradient id="p1phone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f88a5f"/>
+      <stop offset="100%" stop-color="#c94f2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p1bg)"/>
+  <circle cx="120" cy="80" r="60" fill="#ffffff" opacity="0.25"/>
+  <circle cx="700" cy="370" r="90" fill="#ffffff" opacity="0.2"/>
+
+  <!-- ring waves -->
+  <g stroke="#c94f2b" stroke-width="5" fill="none" opacity="0.35" stroke-linecap="round">
+    <path d="M300 150 Q270 120 300 90"/>
+    <path d="M320 165 Q260 110 320 55"/>
+  </g>
+  <g stroke="#c94f2b" stroke-width="5" fill="none" opacity="0.35" stroke-linecap="round">
+    <path d="M500 150 Q530 120 500 90"/>
+    <path d="M480 165 Q540 110 480 55"/>
+  </g>
+
+  <!-- phone body -->
+  <rect x="330" y="120" width="140" height="260" rx="26" fill="url(#p1phone)" stroke="#8a3117" stroke-width="4"/>
+  <rect x="348" y="150" width="104" height="170" rx="10" fill="#fff8f0" opacity="0.85"/>
+  <circle cx="400" cy="345" r="10" fill="#fff8f0" opacity="0.85"/>
+
+  <!-- alert speech bubble -->
+  <g transform="translate(500 100)">
+    <path d="M0 40 C0 15 22 0 55 0 C88 0 110 15 110 40 C110 65 88 80 55 80 C46 80 38 79 31 76 L10 92 L18 72 C6 63 0 52 0 40 Z" fill="#ffffff" stroke="#c94f2b" stroke-width="4"/>
+    <text x="55" y="52" font-family="'Baloo 2', system-ui, sans-serif" font-weight="700" font-size="46" fill="#c23b3b" text-anchor="middle">!</text>
+  </g>
+
+  <!-- small shield watermark -->
+  <g transform="translate(60 340) scale(0.55)" opacity="0.9">
+    <path d="M50 4 C33 4 17 10 17 10 L17 54 C17 77 30 95 50 106.5 C70 95 83 77 83 54 L83 10 C83 10 67 4 50 4 Z" fill="#fff8f0" stroke="#c94f2b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M39 60 Q50 69 61 60" fill="none" stroke="#c94f2b" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="38" cy="48" r="4.5" fill="#c94f2b"/>
+    <circle cx="62" cy="48" r="4.5" fill="#c94f2b"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-labelledby="csc-logo-title">
+  <title id="csc-logo-title">Common Sense Cyber mascot — a friendly smiling shield</title>
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f88a5f"/>
+      <stop offset="100%" stop-color="#f2a03d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shield body -->
+  <path d="M100 8
+           C 66 8 34 20 34 20
+           L 34 108
+           C 34 154 60 190 100 213
+           C 140 190 166 154 166 108
+           L 166 20
+           C 166 20 134 8 100 8
+           Z"
+        fill="url(#shieldGrad)" stroke="#c94f2b" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- glossy highlight -->
+  <path d="M52 28 C 52 28 80 16 100 16 C 100 16 78 34 66 60 C 60 46 52 40 52 28 Z"
+        fill="#ffffff" opacity="0.25"/>
+
+  <!-- cheeks -->
+  <circle cx="62" cy="118" r="10" fill="#ffffff" opacity="0.35"/>
+  <circle cx="138" cy="118" r="10" fill="#ffffff" opacity="0.35"/>
+
+  <!-- eyes -->
+  <circle cx="76" cy="96" r="8.5" fill="#3a2e2a"/>
+  <circle cx="124" cy="96" r="8.5" fill="#3a2e2a"/>
+  <circle cx="78.5" cy="93" r="2.4" fill="#ffffff"/>
+  <circle cx="126.5" cy="93" r="2.4" fill="#ffffff"/>
+
+  <!-- smile -->
+  <path d="M78 120 Q100 138 122 120" fill="none" stroke="#3a2e2a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- keyhole security badge -->
+  <g transform="translate(100 165)">
+    <circle r="17" fill="#fff8f0" stroke="#c94f2b" stroke-width="3"/>
+    <circle cy="-3" r="4.5" fill="#f2704a"/>
+    <path d="M-3.5 1 L3.5 1 L2 10 L-2 10 Z" fill="#f2704a"/>
+  </g>
+</svg>

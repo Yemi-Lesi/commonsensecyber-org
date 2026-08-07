@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="poster3-title">
+  <title id="poster3-title">Illustration of a phone with a protected chat bubble, in a news-report style frame</title>
+  <defs>
+    <linearGradient id="p3bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbe6c0"/>
+      <stop offset="100%" stop-color="#f0c375"/>
+    </linearGradient>
+    <linearGradient id="p3phone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2a03d"/>
+      <stop offset="100%" stop-color="#b8721f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p3bg)"/>
+  <circle cx="700" cy="90" r="70" fill="#ffffff" opacity="0.22"/>
+  <circle cx="90" cy="380" r="90" fill="#ffffff" opacity="0.18"/>
+
+  <!-- news ticker bar -->
+  <rect x="0" y="0" width="800" height="46" fill="#b8721f"/>
+  <circle cx="36" cy="23" r="8" fill="#c94f2b"/>
+  <rect x="60" y="16" width="140" height="14" rx="7" fill="#ffffff" opacity="0.85"/>
+  <rect x="212" y="16" width="90" height="14" rx="7" fill="#ffffff" opacity="0.5"/>
+
+  <!-- phone body -->
+  <rect x="330" y="120" width="140" height="260" rx="26" fill="url(#p3phone)" stroke="#7a4f14" stroke-width="4"/>
+  <rect x="348" y="150" width="104" height="170" rx="10" fill="#fff8f0" opacity="0.85"/>
+  <circle cx="400" cy="345" r="10" fill="#fff8f0" opacity="0.85"/>
+
+  <!-- chat bubble with lock, protective messaging -->
+  <g transform="translate(490 110)">
+    <path d="M0 44 C0 17 24 0 60 0 C96 0 120 17 120 44 C120 71 96 88 60 88 C50 88 41 87 33 84 L10 100 L19 78 C7 68 0 57 0 44 Z" fill="#ffffff" stroke="#b8721f" stroke-width="4"/>
+    <g transform="translate(44 30)">
+      <rect x="0" y="16" width="32" height="24" rx="5" fill="none" stroke="#b8721f" stroke-width="5"/>
+      <path d="M6 16 V8 a10 10 0 0 1 20 0 V16" fill="none" stroke="#b8721f" stroke-width="5"/>
+    </g>
+  </g>
+
+  <!-- small shield watermark -->
+  <g transform="translate(60 340) scale(0.55)" opacity="0.9">
+    <path d="M50 4 C33 4 17 10 17 10 L17 54 C17 77 30 95 50 106.5 C70 95 83 77 83 54 L83 10 C83 10 67 4 50 4 Z" fill="#fff8f0" stroke="#b8721f" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M39 60 Q50 69 61 60" fill="none" stroke="#b8721f" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="38" cy="48" r="4.5" fill="#b8721f"/>
+    <circle cx="62" cy="48" r="4.5" fill="#b8721f"/>
+  </g>
+</svg>

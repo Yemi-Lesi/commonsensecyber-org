@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="poster4-title">
+  <title id="poster4-title">Illustration of a game controller with an alert bubble, in a news-report style frame</title>
+  <defs>
+    <linearGradient id="p4bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbe9e7"/>
+      <stop offset="100%" stop-color="#f3c3bd"/>
+    </linearGradient>
+    <linearGradient id="p4pad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d9564f"/>
+      <stop offset="100%" stop-color="#8f2a25"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p4bg)"/>
+  <circle cx="120" cy="80" r="60" fill="#ffffff" opacity="0.25"/>
+  <circle cx="700" cy="370" r="90" fill="#ffffff" opacity="0.2"/>
+
+  <!-- news ticker bar -->
+  <rect x="0" y="0" width="800" height="46" fill="#8f2a25"/>
+  <circle cx="36" cy="23" r="8" fill="#f2a03d"/>
+  <rect x="60" y="16" width="140" height="14" rx="7" fill="#ffffff" opacity="0.85"/>
+  <rect x="212" y="16" width="90" height="14" rx="7" fill="#ffffff" opacity="0.5"/>
+
+  <!-- game controller -->
+  <g transform="translate(280 160)">
+    <path d="M40 20 C10 20 0 55 0 85 C0 112 14 122 28 122 C40 122 42 105 60 105 L180 105 C198 105 200 122 212 122 C226 122 240 112 240 85 C240 55 230 20 200 20 C170 20 168 40 120 40 C72 40 70 20 40 20 Z"
+      fill="url(#p4pad)" stroke="#5e1a17" stroke-width="5" stroke-linejoin="round"/>
+    <!-- d-pad -->
+    <g fill="#fff8f0" opacity="0.9">
+      <rect x="46" y="52" width="12" height="34" rx="3"/>
+      <rect x="33" y="65" width="38" height="12" rx="3"/>
+    </g>
+    <!-- action buttons -->
+    <g fill="#fff8f0" opacity="0.9">
+      <circle cx="182" cy="55" r="9"/>
+      <circle cx="204" cy="70" r="9"/>
+      <circle cx="160" cy="70" r="9"/>
+      <circle cx="182" cy="85" r="9"/>
+    </g>
+  </g>
+
+  <!-- alert speech bubble -->
+  <g transform="translate(500 90)">
+    <path d="M0 40 C0 15 22 0 55 0 C88 0 110 15 110 40 C110 65 88 80 55 80 C46 80 38 79 31 76 L10 92 L18 72 C6 63 0 52 0 40 Z" fill="#ffffff" stroke="#8f2a25" stroke-width="4"/>
+    <text x="55" y="52" font-family="'Baloo 2', system-ui, sans-serif" font-weight="700" font-size="46" fill="#c23b3b" text-anchor="middle">!</text>
+  </g>
+
+  <!-- small shield watermark -->
+  <g transform="translate(600 340) scale(0.5)" opacity="0.9">
+    <path d="M50 4 C33 4 17 10 17 10 L17 54 C17 77 30 95 50 106.5 C70 95 83 77 83 54 L83 10 C83 10 67 4 50 4 Z" fill="#fff8f0" stroke="#8f2a25" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M39 60 Q50 69 61 60" fill="none" stroke="#8f2a25" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="38" cy="48" r="4.5" fill="#8f2a25"/>
+    <circle cx="62" cy="48" r="4.5" fill="#8f2a25"/>
+  </g>
+</svg>

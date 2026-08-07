@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="poster2-title">
+  <title id="poster2-title">Illustration of a shield with a magnifying glass, in a news-report style frame</title>
+  <defs>
+    <linearGradient id="p2bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d9efe9"/>
+      <stop offset="100%" stop-color="#aee0d3"/>
+    </linearGradient>
+    <linearGradient id="p2shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2fa08f"/>
+      <stop offset="100%" stop-color="#155e53"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p2bg)"/>
+  <circle cx="700" cy="90" r="70" fill="#ffffff" opacity="0.22"/>
+  <circle cx="90" cy="380" r="90" fill="#ffffff" opacity="0.18"/>
+
+  <!-- news ticker bar -->
+  <rect x="0" y="0" width="800" height="46" fill="#155e53"/>
+  <circle cx="36" cy="23" r="8" fill="#f2704a"/>
+  <rect x="60" y="16" width="140" height="14" rx="7" fill="#ffffff" opacity="0.85"/>
+  <rect x="212" y="16" width="90" height="14" rx="7" fill="#ffffff" opacity="0.5"/>
+
+  <!-- shield -->
+  <g transform="translate(310 130)">
+    <path d="M90 6 C58 6 28 20 28 20 L28 130 C28 190 55 235 90 258 C125 235 152 190 152 130 L152 20 C152 20 122 6 90 6 Z"
+      fill="url(#p2shield)" stroke="#0f4a41" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M55 40 C55 40 78 30 90 30 C90 30 72 46 63 68 C58 56 55 50 55 40 Z" fill="#ffffff" opacity="0.25"/>
+  </g>
+
+  <!-- magnifying glass over the shield -->
+  <g transform="translate(430 190)">
+    <circle r="48" fill="#fff8f0" stroke="#0f4a41" stroke-width="7"/>
+    <line x1="34" y1="34" x2="70" y2="70" stroke="#0f4a41" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
