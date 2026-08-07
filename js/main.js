@@ -11,6 +11,7 @@
      Not translated — each story is displayed exactly as submitted. */
   const COMMUNITY_STORIES = [
     { body: "Scam call from a 'cousin', lost money before realizing." },
+    { name: 'Johnie Deschamp', body: "Got a text to reschedule a missed call from 'Bell'. I clicked Y to accept the message and was told to expect a call. I received a call and hung up when the person on the other end started asking strange banking-related questions." },
   ];
   const RESOURCE_URLS = [
     ['https://antifraudcentre-centreantifraude.ca', 'https://www.cyber.gc.ca', 'https://www.getcybersafe.gc.ca', 'https://competitionbureau.gc.ca/en/consumer-protection'],
