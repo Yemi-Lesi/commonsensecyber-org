@@ -7,6 +7,11 @@
   /* Non-translated media/link data, indexed to match the i18n content arrays below */
   const STORY_VIDEO_SRCS = ['assets/video/gp-scam.mp4', 'assets/video/grandparent-scam-news.mp4', 'assets/video/sextortion-scam-news.mp4', 'assets/video/gaming-scam-news.mp4'];
   const STORY_VIDEO_POSTERS = ['assets/img/poster-call-1.svg', 'assets/img/poster-call-2.svg', 'assets/img/poster-call-3.svg', 'assets/img/poster-call-4.svg'];
+  /* Community-submitted stories, reviewed and added by the site owner.
+     Not translated — each story is displayed exactly as submitted. */
+  const COMMUNITY_STORIES = [
+    // { name: 'A visitor', body: 'Story text goes here.' },
+  ];
   const RESOURCE_URLS = [
     ['https://antifraudcentre-centreantifraude.ca', 'https://www.cyber.gc.ca', 'https://www.getcybersafe.gc.ca', 'https://competitionbureau.gc.ca/en/consumer-protection'],
     ['https://consumer.ftc.gov', 'https://www.actionfraud.police.uk', 'https://www.ic3.gov'],
@@ -227,6 +232,27 @@
     `).join('');
   }
 
+  function renderCommunityStories() {
+    const wrap = document.getElementById('communityStoryList');
+    if (!wrap) return;
+    const d = t().community;
+    if (!COMMUNITY_STORIES.length) {
+      wrap.innerHTML = `
+        <div class="community-empty">
+          <h3>${d.emptyTitle}</h3>
+          <p>${d.emptyBody}</p>
+        </div>
+      `;
+      return;
+    }
+    wrap.innerHTML = `<ul class="community-story-list">${COMMUNITY_STORIES.map(s => `
+      <li class="community-story-card">
+        <p>${s.body}</p>
+        <span class="community-story-name">${s.name || d.anonymousName}</span>
+      </li>
+    `).join('')}</ul>`;
+  }
+
   function renderFaq() {
     const list = document.getElementById('faqList');
     if (!list) return;
@@ -379,6 +405,7 @@
     renderResourceGroups();
     renderResources();
     renderFaq();
+    renderCommunityStories();
     quizIndex = 0;
     quizScore = 0;
     renderQuizQuestion();
@@ -467,6 +494,36 @@
   }
 
   /* ============================================================
+     Community stories: submission form
+     No backend yet: this opens the visitor's email app with the
+     story pre-filled, addressed to CONTACT_EMAIL, for manual review
+     before being added to COMMUNITY_STORIES above.
+     ============================================================ */
+  function initCommunityForm() {
+    const form = document.getElementById('communityForm');
+    if (!form) return;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      const name = form.communityName.value.trim();
+      const anonymous = form.communityAnonymous.checked;
+      const story = form.communityStory.value.trim();
+      const email = form.communityEmail.value.trim();
+      const displayName = anonymous ? 'Anonymous' : (name || 'Anonymous');
+      const subject = `Common Sense Cyber — community story from ${displayName}`;
+      const body = `${story}\n\n— ${displayName}${email ? ` (${email})` : ''}\n\n[Post anonymously: ${anonymous ? 'yes' : 'no'}]`;
+      const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoUrl;
+
+      document.getElementById('communityFormSuccess').classList.add('show');
+      form.reset();
+    });
+  }
+
+  /* ============================================================
      Check & Protect: security checkup
      Everything here is client-side only — answers are never sent,
      stored, or persisted anywhere, not even in localStorage.
@@ -499,6 +556,7 @@
     initHeader();
     initHeaderScrollShadow();
     initForm();
+    initCommunityForm();
     initSecurityCheckup();
   });
 })();

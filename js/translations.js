@@ -11,7 +11,7 @@ window.CSC_I18N = {
     logoAlt: 'Common Sense Cyber logo — a smiling shield mascot',
     heroArtAlt: 'Illustration of the Common Sense Cyber mascot, a smiling shield',
     footerLogoAlt: 'Common Sense Cyber logo',
-    nav: { basics: 'Learn the Basics', tracks: 'Kids & Seniors', story: 'Real Stories', quiz: 'Quiz', resources: 'Resources', checkProtect: 'Check & Protect', report: 'Get Help', faq: 'FAQ' },
+    nav: { basics: 'Learn the Basics', tracks: 'Kids & Seniors', story: 'Real Stories', quiz: 'Quiz', resources: 'Resources', checkProtect: 'Check & Protect', report: 'Get Help', faq: 'FAQ', community: 'Share Your Story' },
     header: { textSize: 'Increase text size for easier reading', menuOpen: 'Open menu', menuClose: 'Close menu', lang: 'Choose language' },
     brand: { tagline: 'Online safety, plainly explained' },
     hero: {
@@ -287,6 +287,21 @@ window.CSC_I18N = {
         { q: 'Can I share this site with my family?', a: 'Please do! Common Sense Cyber is free to use and share — especially with the young explorers and wiser web users in your life.' }
       ]
     },
+    community: {
+      eyebrow: 'Community stories',
+      h2: 'Has something like this happened to you?',
+      p: "Real experiences help other visitors recognize the same warning signs. Every story is reviewed before it's posted, and you're welcome to stay anonymous.",
+      emptyTitle: 'No stories yet',
+      emptyBody: 'Be the first to share — your experience could help someone else spot the same scam.',
+      anonymousName: 'Anonymous',
+      formTitle: 'Share your story',
+      formNote: "This opens your email app with your story pre-filled. Nothing is posted automatically — a real person reviews every submission before it goes on the site.",
+      nameLabel: 'Your name (optional)', anonymousLabel: 'Post this anonymously', storyLabel: 'What happened?',
+      emailLabel: 'Your email (private — only used if we have a follow-up question, never published)',
+      consentLabel: "I'm okay with this story being reviewed and possibly shared on this site.",
+      submitLabel: 'Send my story',
+      successMsg: 'Opening your email app…'
+    },
     footer: {
       tagline: 'Online safety, plainly explained.',
       disclaimer: 'Common Sense Cyber is an independent educational resource and is not affiliated with any government agency, bank, or law enforcement body. In an emergency, or if money has already been sent, contact your bank and the Canadian Anti-Fraud Centre right away.',
@@ -301,7 +316,7 @@ window.CSC_I18N = {
     logoAlt: 'Logo de Common Sense Cyber — une mascotte bouclier souriante',
     heroArtAlt: 'Illustration de la mascotte de Common Sense Cyber, un bouclier souriant',
     footerLogoAlt: 'Logo de Common Sense Cyber',
-    nav: { basics: 'Les bases', tracks: 'Enfants et aînés', story: 'Histoires vécues', quiz: 'Quiz', resources: 'Ressources', report: "Obtenir de l'aide", faq: 'FAQ' },
+    nav: { basics: 'Les bases', tracks: 'Enfants et aînés', story: 'Histoires vécues', quiz: 'Quiz', resources: 'Ressources', report: "Obtenir de l'aide", faq: 'FAQ', community: 'Partagez votre histoire' },
     header: { textSize: 'Augmenter la taille du texte pour une lecture plus facile', menuOpen: 'Ouvrir le menu', menuClose: 'Fermer le menu', lang: 'Choisir la langue' },
     brand: { tagline: "La sécurité en ligne, expliquée simplement" },
     hero: {
@@ -489,6 +504,21 @@ window.CSC_I18N = {
         { q: 'Puis-je partager ce site avec ma famille?', a: "Avec plaisir! Common Sense Cyber est gratuit à utiliser et à partager — surtout avec les jeunes explorateurs et les internautes avisés de votre entourage." }
       ]
     },
+    community: {
+      eyebrow: 'Histoires de la communauté',
+      h2: 'Est-ce que quelque chose comme ça vous est déjà arrivé?',
+      p: "Les expériences vécues aident les autres visiteurs à reconnaître les mêmes signaux d'alarme. Chaque histoire est vérifiée avant d'être publiée, et vous pouvez rester anonyme si vous le souhaitez.",
+      emptyTitle: 'Aucune histoire pour le moment',
+      emptyBody: "Soyez la première personne à partager la vôtre — votre expérience pourrait aider quelqu'un d'autre à repérer la même arnaque.",
+      anonymousName: 'Anonyme',
+      formTitle: 'Partagez votre histoire',
+      formNote: "Ceci ouvre votre application de courriel avec votre histoire préremplie. Rien n'est publié automatiquement — une vraie personne vérifie chaque soumission avant sa publication sur le site.",
+      nameLabel: 'Votre nom (facultatif)', anonymousLabel: 'Publier ceci de façon anonyme', storyLabel: "Que s'est-il passé?",
+      emailLabel: 'Votre courriel (privé — utilisé seulement en cas de question de suivi, jamais publié)',
+      consentLabel: "J'accepte que cette histoire soit vérifiée et possiblement partagée sur ce site.",
+      submitLabel: 'Envoyer mon histoire',
+      successMsg: 'Ouverture de votre application de courriel…'
+    },
     footer: {
       tagline: 'La sécurité en ligne, expliquée simplement.',
       disclaimer: "Common Sense Cyber est une ressource éducative indépendante et n'est affiliée à aucun organisme gouvernemental, banque ou service d'application de la loi. En cas d'urgence, ou si de l'argent a déjà été envoyé, contactez immédiatement votre banque et le Centre antifraude du Canada.",
@@ -503,7 +533,7 @@ window.CSC_I18N = {
     logoAlt: 'Logotipo de Common Sense Cyber — una mascota escudo sonriente',
     heroArtAlt: 'Ilustración de la mascota de Common Sense Cyber, un escudo sonriente',
     footerLogoAlt: 'Logotipo de Common Sense Cyber',
-    nav: { basics: 'Aprende lo básico', tracks: 'Niños y mayores', story: 'Historias reales', quiz: 'Cuestionario', resources: 'Recursos', report: 'Obtener ayuda', faq: 'Preguntas frecuentes' },
+    nav: { basics: 'Aprende lo básico', tracks: 'Niños y mayores', story: 'Historias reales', quiz: 'Cuestionario', resources: 'Recursos', report: 'Obtener ayuda', faq: 'Preguntas frecuentes', community: 'Comparte tu historia' },
     header: { textSize: 'Aumentar el tamaño del texto para facilitar la lectura', menuOpen: 'Abrir menú', menuClose: 'Cerrar menú', lang: 'Elegir idioma' },
     brand: { tagline: 'Seguridad en línea, explicada con sencillez' },
     hero: {
@@ -691,6 +721,21 @@ window.CSC_I18N = {
         { q: '¿Puedo compartir este sitio con mi familia?', a: '¡Por favor, hazlo! Common Sense Cyber es gratuito para usar y compartir, especialmente con los jóvenes exploradores y los navegantes con experiencia de tu vida.' }
       ]
     },
+    community: {
+      eyebrow: 'Historias de la comunidad',
+      h2: '¿Te ha pasado algo parecido a esto?',
+      p: 'Las experiencias reales ayudan a otros visitantes a reconocer las mismas señales de alerta. Cada historia se revisa antes de publicarse, y puedes quedar en el anonimato si lo prefieres.',
+      emptyTitle: 'Todavía no hay historias',
+      emptyBody: 'Sé la primera persona en compartir la tuya — tu experiencia podría ayudar a alguien más a reconocer la misma estafa.',
+      anonymousName: 'Anónimo',
+      formTitle: 'Comparte tu historia',
+      formNote: 'Esto abre tu aplicación de correo con tu historia ya redactada. Nada se publica automáticamente — una persona real revisa cada historia antes de que aparezca en el sitio.',
+      nameLabel: 'Tu nombre (opcional)', anonymousLabel: 'Publicar esto de forma anónima', storyLabel: '¿Qué sucedió?',
+      emailLabel: 'Tu correo electrónico (privado — solo se usa si tenemos una pregunta de seguimiento, nunca se publica)',
+      consentLabel: 'Estoy de acuerdo con que esta historia sea revisada y posiblemente compartida en este sitio.',
+      submitLabel: 'Enviar mi historia',
+      successMsg: 'Abriendo tu aplicación de correo…'
+    },
     footer: {
       tagline: 'Seguridad en línea, explicada con sencillez.',
       disclaimer: 'Common Sense Cyber es un recurso educativo independiente y no está afiliado a ninguna agencia gubernamental, banco o cuerpo policial. En caso de emergencia, o si ya se envió dinero, contacta de inmediato a tu banco y al Centro Antifraude de Canadá.',
@@ -705,7 +750,7 @@ window.CSC_I18N = {
     logoAlt: 'Common Sense Cyber 标志——一个微笑的盾牌吉祥物',
     heroArtAlt: 'Common Sense Cyber 吉祥物插图，一个微笑的盾牌',
     footerLogoAlt: 'Common Sense Cyber 标志',
-    nav: { basics: '学习基础知识', tracks: '儿童与长者', story: '真实案例', quiz: '小测验', resources: '资源', report: '获取帮助', faq: '常见问题' },
+    nav: { basics: '学习基础知识', tracks: '儿童与长者', story: '真实案例', quiz: '小测验', resources: '资源', report: '获取帮助', faq: '常见问题', community: '分享你的故事' },
     header: { textSize: '放大文字，方便阅读', menuOpen: '打开菜单', menuClose: '关闭菜单', lang: '选择语言' },
     brand: { tagline: '网络安全，简单易懂' },
     hero: {
@@ -893,6 +938,21 @@ window.CSC_I18N = {
         { q: '我可以把这个网站分享给家人吗？', a: '请一定要分享！Common Sense Cyber 完全免费，欢迎使用和分享——尤其是分享给您身边的小小探索家和智慧网络达人。' }
       ]
     },
+    community: {
+      eyebrow: '社区故事',
+      h2: '类似的事情发生在您身上过吗？',
+      p: '真实的经历能帮助其他访客识别同样的警示信号。每一篇投稿在发布前都会经过审核，您也可以选择匿名。',
+      emptyTitle: '暂时还没有故事',
+      emptyBody: '成为第一个分享故事的人——您的经历也许能帮助别人识破同样的骗局。',
+      anonymousName: '匿名用户',
+      formTitle: '分享您的故事',
+      formNote: '点击后会打开您的邮件应用，并自动填好您的故事内容。内容不会自动发布——每一篇投稿都会经过真人审核后才会出现在网站上。',
+      nameLabel: '您的姓名（可选）', anonymousLabel: '匿名发布', storyLabel: '发生了什么事？',
+      emailLabel: '您的电子邮箱（保密——仅在需要跟进提问时使用，绝不会公开）',
+      consentLabel: '我同意这篇故事被审核，并可能被分享到本网站上。',
+      submitLabel: '发送我的故事',
+      successMsg: '正在打开您的邮件应用……'
+    },
     footer: {
       tagline: '网络安全，简单易懂。',
       disclaimer: 'Common Sense Cyber 是一个独立的教育资源平台，不隶属于任何政府机构、银行或执法部门。如遇紧急情况，或已经汇出款项，请立即联系您的银行和加拿大反诈骗中心。',
@@ -907,7 +967,7 @@ window.CSC_I18N = {
     logoAlt: 'شعار Common Sense Cyber — تميمة درع مبتسم',
     heroArtAlt: 'رسم توضيحي لتميمة Common Sense Cyber، درع مبتسم',
     footerLogoAlt: 'شعار Common Sense Cyber',
-    nav: { basics: 'تعلّم الأساسيات', tracks: 'الأطفال وكبار السن', story: 'قصص حقيقية', quiz: 'اختبار', resources: 'مصادر', report: 'طلب المساعدة', faq: 'الأسئلة الشائعة' },
+    nav: { basics: 'تعلّم الأساسيات', tracks: 'الأطفال وكبار السن', story: 'قصص حقيقية', quiz: 'اختبار', resources: 'مصادر', report: 'طلب المساعدة', faq: 'الأسئلة الشائعة', community: 'شارك قصتك' },
     header: { textSize: 'تكبير حجم النص لتسهيل القراءة', menuOpen: 'فتح القائمة', menuClose: 'إغلاق القائمة', lang: 'اختر اللغة' },
     brand: { tagline: 'الأمان الرقمي، مشروحًا ببساطة' },
     hero: {
@@ -1095,6 +1155,21 @@ window.CSC_I18N = {
         { q: 'هل يمكنني مشاركة هذا الموقع مع عائلتي؟', a: 'بالتأكيد، افعل ذلك! Common Sense Cyber مجاني للاستخدام والمشاركة — خصوصًا مع المستكشفين الصغار ومستخدمي الإنترنت الحكماء في حياتك.' }
       ]
     },
+    community: {
+      eyebrow: 'قصص من المجتمع',
+      h2: 'هل حدث لك شيء مشابه لهذا من قبل؟',
+      p: 'التجارب الحقيقية تساعد الزوار الآخرين على التعرف على نفس علامات التحذير. تتم مراجعة كل قصة قبل نشرها، ويمكنك البقاء مجهول الهوية إذا رغبت.',
+      emptyTitle: 'لا توجد قصص بعد',
+      emptyBody: 'كن أول من يشارك قصته — قد تساعد تجربتك شخصًا آخر على اكتشاف نفس الاحتيال.',
+      anonymousName: 'مجهول',
+      formTitle: 'شارك قصتك',
+      formNote: 'سيفتح هذا تطبيق البريد الإلكتروني لديك مع قصتك جاهزة مسبقًا. لا يُنشر شيء تلقائيًا — يقوم شخص حقيقي بمراجعة كل قصة قبل نشرها على الموقع.',
+      nameLabel: 'اسمك (اختياري)', anonymousLabel: 'نشر هذا بشكل مجهول', storyLabel: 'ماذا حدث؟',
+      emailLabel: 'بريدك الإلكتروني (خاص — يُستخدم فقط إذا كان لدينا سؤال متابعة، ولن يُنشر أبدًا)',
+      consentLabel: 'أوافق على مراجعة هذه القصة واحتمال مشاركتها على هذا الموقع.',
+      submitLabel: 'إرسال قصتي',
+      successMsg: 'جارٍ فتح تطبيق البريد الإلكتروني لديك…'
+    },
     footer: {
       tagline: 'الأمان الرقمي، مشروحًا ببساطة.',
       disclaimer: 'Common Sense Cyber مصدر تعليمي مستقل وغير تابع لأي جهة حكومية أو بنك أو جهة إنفاذ قانون. في حالات الطوارئ، أو إذا تم إرسال المال بالفعل، تواصل فورًا مع بنكك ومع المركز الكندي لمكافحة الاحتيال.',
@@ -1109,7 +1184,7 @@ window.CSC_I18N = {
     logoAlt: 'Common Sense Cyber लोगो — एक मुस्कुराता हुआ शील्ड शुभंकर',
     heroArtAlt: 'Common Sense Cyber शुभंकर का चित्रण, एक मुस्कुराता हुआ शील्ड',
     footerLogoAlt: 'Common Sense Cyber लोगो',
-    nav: { basics: 'बुनियादी बातें सीखें', tracks: 'बच्चों और बुज़ुर्गों के लिए', story: 'असली कहानियाँ', quiz: 'क्विज़', resources: 'संसाधन', report: 'मदद पाएं', faq: 'अक्सर पूछे जाने वाले सवाल' },
+    nav: { basics: 'बुनियादी बातें सीखें', tracks: 'बच्चों और बुज़ुर्गों के लिए', story: 'असली कहानियाँ', quiz: 'क्विज़', resources: 'संसाधन', report: 'मदद पाएं', faq: 'अक्सर पूछे जाने वाले सवाल', community: 'अपनी कहानी साझा करें' },
     header: { textSize: 'आसानी से पढ़ने के लिए टेक्स्ट बड़ा करें', menuOpen: 'मेनू खोलें', menuClose: 'मेनू बंद करें', lang: 'भाषा चुनें' },
     brand: { tagline: 'ऑनलाइन सुरक्षा, आसान भाषा में' },
     hero: {
@@ -1297,6 +1372,21 @@ window.CSC_I18N = {
         { q: 'क्या मैं यह साइट अपने परिवार के साथ साझा कर सकता हूँ?', a: 'ज़रूर कीजिए! Common Sense Cyber इस्तेमाल करने और साझा करने के लिए मुफ़्त है — खासकर आपकी ज़िंदगी में मौजूद युवा खोजकर्ताओं और समझदार वेब उपयोगकर्ताओं के साथ।' }
       ]
     },
+    community: {
+      eyebrow: 'समुदाय की कहानियाँ',
+      h2: 'क्या आपके साथ भी ऐसा कुछ हुआ है?',
+      p: 'असली अनुभव दूसरे विज़िटर्स को वही चेतावनी संकेत पहचानने में मदद करते हैं। हर कहानी पब्लिश होने से पहले जांची जाती है, और आप चाहें तो गुमनाम रह सकते हैं।',
+      emptyTitle: 'अभी तक कोई कहानी नहीं है',
+      emptyBody: 'अपनी कहानी साझा करने वाले पहले व्यक्ति बनें — आपका अनुभव किसी और को वही धोखाधड़ी पहचानने में मदद कर सकता है।',
+      anonymousName: 'गुमनाम',
+      formTitle: 'अपनी कहानी साझा करें',
+      formNote: 'इससे आपकी ईमेल ऐप खुल जाएगी, जिसमें आपकी कहानी पहले से भरी होगी। कुछ भी अपने आप पब्लिश नहीं होता — साइट पर आने से पहले हर कहानी को एक असली व्यक्ति जांचता है।',
+      nameLabel: 'आपका नाम (वैकल्पिक)', anonymousLabel: 'इसे गुमनाम रूप से पोस्ट करें', storyLabel: 'क्या हुआ था?',
+      emailLabel: 'आपका ईमेल (निजी — केवल फॉलो-अप सवाल के लिए इस्तेमाल होगा, कभी पब्लिश नहीं होगा)',
+      consentLabel: 'मैं सहमत हूँ कि इस कहानी की समीक्षा हो और इसे इस साइट पर साझा किया जा सकता है।',
+      submitLabel: 'मेरी कहानी भेजें',
+      successMsg: 'आपकी ईमेल ऐप खुल रही है…'
+    },
     footer: {
       tagline: 'ऑनलाइन सुरक्षा, आसान भाषा में।',
       disclaimer: 'Common Sense Cyber एक स्वतंत्र शैक्षिक संसाधन है और किसी भी सरकारी एजेंसी, बैंक या कानून प्रवर्तन संस्था से जुड़ा नहीं है। किसी इमरजेंसी में, या अगर पैसे पहले ही भेजे जा चुके हैं, तो तुरंत अपने बैंक और कनाडाई एंटी-फ़्रॉड सेंटर से संपर्क करें।',
@@ -1311,7 +1401,7 @@ window.CSC_I18N = {
     logoAlt: 'Àmì Common Sense Cyber — asà kan tí ó ń rẹ́rìn-ín',
     heroArtAlt: 'Àwòrán asà Common Sense Cyber, asà kan tí ó ń rẹ́rìn-ín',
     footerLogoAlt: 'Àmì Common Sense Cyber',
-    nav: { basics: 'Kọ́ Ìpìlẹ̀ Rẹ̀', tracks: 'Àwọn Ọmọdé àti Àgbàlagbà', story: 'Ìtàn Òtítọ́', quiz: 'Àdánwò', resources: 'Àwọn Ohun Èlò', report: 'Rí Ìrànlọ́wọ́ Gbà', faq: 'Àwọn Ìbéèrè Tí A Sábà Ń Béèrè' },
+    nav: { basics: 'Kọ́ Ìpìlẹ̀ Rẹ̀', tracks: 'Àwọn Ọmọdé àti Àgbàlagbà', story: 'Ìtàn Òtítọ́', quiz: 'Àdánwò', resources: 'Àwọn Ohun Èlò', report: 'Rí Ìrànlọ́wọ́ Gbà', faq: 'Àwọn Ìbéèrè Tí A Sábà Ń Béèrè', community: 'Fi Ìtàn Rẹ Sílẹ̀' },
     header: { textSize: 'Sọ Ọ̀rọ̀ Di Ńlá Kí Kíkà Le Rọrùn', menuOpen: 'Ṣí Àkójọ', menuClose: 'Ti Àkójọ', lang: 'Yan Èdè' },
     brand: { tagline: 'Ààbò lórí Íńtánẹ́ẹ̀tì, tí a ṣàlàyé láìní ìdíjú' },
     hero: {
@@ -1499,6 +1589,21 @@ window.CSC_I18N = {
         { q: 'Ṣé mo lè pín ojú-òpó yìí fún ẹbí mi?', a: 'Jọ̀wọ́ ṣe bẹ́ẹ̀! Common Sense Cyber jẹ́ ọ̀fẹ́ láti lò àti láti pín — pàápàá jùlọ fún àwọn olùṣàwárí kékeré àti àwọn ọ̀gá íńtánẹ́ẹ̀tì nínú ìgbésí ayé rẹ.' }
       ]
     },
+    community: {
+      eyebrow: 'Àwọn Ìtàn Àwùjọ',
+      h2: 'Ǹjẹ́ ohun kan bí èyí ti ṣẹlẹ̀ sí ọ rí?',
+      p: 'Àwọn ìrírí gidi ń ràn àwọn àlejò mìíràn lọ́wọ́ láti mọ àwọn àmì ewu kan náà. A máa ń ṣàyẹ̀wò ìtàn kọ̀ọ̀kan kí ó tó jáde, o sì lè dá wà ní ìkọ̀kọ̀ bí o bá fẹ́.',
+      emptyTitle: 'Kò sí ìtàn kankan síbẹ̀',
+      emptyBody: 'Jẹ́ ẹni àkọ́kọ́ tí yóò pín tirẹ̀ — ìrírí rẹ lè ràn ẹlòmíràn lọ́wọ́ láti mọ ẹ̀tàn kan náà.',
+      anonymousName: 'Aláìṣàkọsílẹ̀',
+      formTitle: 'Fi Ìtàn Rẹ Sílẹ̀',
+      formNote: 'Èyí yóò ṣí app ímeèlì rẹ pẹ̀lú ìtàn rẹ tí a ti kọ tẹ́lẹ̀. Kò sí ohun tí yóò jáde fúnra rẹ̀ — ènìyàn gidi ni yóò ṣàyẹ̀wò ìtàn kọ̀ọ̀kan kí ó tó farahàn lórí ojú-òpó náà.',
+      nameLabel: 'Orúkọ rẹ (kì í ṣe dandan)', anonymousLabel: 'Fi èyí jáde láìní orúkọ', storyLabel: 'Kí ni ó ṣẹlẹ̀?',
+      emailLabel: 'Ímeèlì rẹ (ìkọ̀kọ̀ — a óò lò ó bí a bá ní ìbéèrè kan síi, a kì yóò gbé e jáde láéláé)',
+      consentLabel: 'Ó yẹ mí bí wọ́n bá ṣàyẹ̀wò ìtàn yìí tí wọ́n sì lè pín in lórí ojú-òpó yìí.',
+      submitLabel: 'Fi ìtàn mi ránṣẹ́',
+      successMsg: 'À ń ṣí app ímeèlì rẹ…'
+    },
     footer: {
       tagline: 'Ààbò lórí Íńtánẹ́ẹ̀tì, tí a ṣàlàyé láìní ìdíjú.',
       disclaimer: 'Common Sense Cyber jẹ́ orísun ẹ̀kọ́ òmìnira tí a kò sì so mọ́ àjọ ìjọba, báǹkì, tàbí àjọ ìmúṣẹ òfin kankan. Nínú ìjàmbá, tàbí bí a bá ti fi owó ránṣẹ́ tẹ́lẹ̀, kàn sí báǹkì rẹ àti Ilé-iṣẹ́ Ìjà Ẹ̀tàn ti Kánádà lẹ́sẹ̀kẹsẹ̀.',
@@ -1513,7 +1618,7 @@ window.CSC_I18N = {
     logoAlt: 'Akara Common Sense Cyber — ihe oyiyi ọta na-amụ ọnụ ọchị',
     heroArtAlt: 'Foto ihe oyiyi Common Sense Cyber, ọta na-amụ ọnụ ọchị',
     footerLogoAlt: 'Akara Common Sense Cyber',
-    nav: { basics: 'Mụta Isi Ihe', tracks: 'Ụmụaka na Ndị Okenye', story: 'Akụkọ Eziokwu', quiz: 'Ajụjụ Ọzụzụ', resources: 'Akụrụngwa', report: 'Nweta Enyemaka', faq: 'Ajụjụ A Na-ajụkarị' },
+    nav: { basics: 'Mụta Isi Ihe', tracks: 'Ụmụaka na Ndị Okenye', story: 'Akụkọ Eziokwu', quiz: 'Ajụjụ Ọzụzụ', resources: 'Akụrụngwa', report: 'Nweta Enyemaka', faq: 'Ajụjụ A Na-ajụkarị', community: 'Kesaa Akụkọ Gị' },
     header: { textSize: 'Mee ka mkpụrụedemede buo ibu ka ọ dịrị mfe ịgụ', menuOpen: 'Meghee Menu', menuClose: 'Mechie Menu', lang: 'Họrọ Asụsụ' },
     brand: { tagline: "Nchekwa ịntanetị, akọwara n'ụzọ dị mfe" },
     hero: {
@@ -1701,6 +1806,21 @@ window.CSC_I18N = {
         { q: 'Enwere m ike ịkekọrịta weebụsaịtị a na ezinụlọ m?', a: 'Biko mee nke ahụ! Common Sense Cyber bụ n\'efu iji ya na ịkekọrịta ya — karịsịa na ndị nyocha obere na ndị ọkachamara ịntanetị nọ na ndụ gị.' }
       ]
     },
+    community: {
+      eyebrow: 'Akụkọ Obodo',
+      h2: 'Ihe dị ka nke a o meela gị mbụ?',
+      p: 'Ezi ahụmahụ na-enyere ndị ọbịa ọzọ aka ịmata otu ihe ịrịba ama ahụ. A na-enyocha akụkọ ọ bụla tupu ebipụta ya, ị nwekwara ike ịnọrọ na nzuzo.',
+      emptyTitle: 'Enweghị akụkọ ugbu a',
+      emptyBody: 'Bụrụ onye mbụ kesaa nke gị — ahụmahụ gị nwere ike inyere onye ọzọ aka ịmata otu aghụghọ ahụ.',
+      anonymousName: 'Onye na-ekpughị aha',
+      formTitle: 'Kesaa Akụkọ Gị',
+      formNote: "Nke a ga-emeghe ngwa email gị na akụkọ gị edeworị. Ọ dịghị ihe na-ebipụta onwe ya — ezigbo mmadụ na-enyocha akụkọ ọ bụla tupu ọ pụta na saịtị a.",
+      nameLabel: 'Aha gị (ọ bụghị mkpa)', anonymousLabel: 'Bipụta nke a na-ekpughị aha', storyLabel: 'Gịnị mere?',
+      emailLabel: 'Email gị (nzuzo — a na-eji ya naanị mgbe anyị nwere ajụjụ nleba anya, a gaghị ebipụta ya)',
+      consentLabel: 'Ọ dị mma ka a nyocha akụkọ a ma kesaa ya na saịtị a.',
+      submitLabel: 'Ziga Akụkọ M',
+      successMsg: 'Na-emeghe ngwa email gị…'
+    },
     footer: {
       tagline: "Nchekwa ịntanetị, akọwara n'ụzọ dị mfe.",
       disclaimer: 'Common Sense Cyber bụ ihe mmata mmụta nnwere onwe, anyị anaghị ejikọta ya na ụlọ ọrụ gọọmentị, ụlọ akụ, ma ọ bụ ndị na-emezi iwu ọ bụla. Ná ihe mberede, ma ọ bụ ọ bụrụ na ezigawo ego, jikọọ na ụlọ akụ gị na Ụlọ Ọrụ Ọgụ Aghụghọ nke Canada ozugbo.',
@@ -1715,7 +1835,7 @@ window.CSC_I18N = {
     logoAlt: 'Alamar Common Sense Cyber — abin rufe fuska na garkuwa mai murmushi',
     heroArtAlt: 'Hoton abin rufe fuska na Common Sense Cyber, garkuwa mai murmushi',
     footerLogoAlt: 'Alamar Common Sense Cyber',
-    nav: { basics: 'Koyi Asali', tracks: 'Yara da Manya', story: 'Labaran Gaskiya', quiz: 'Jarabawa', resources: 'Albarkatu', report: 'Nemi Taimako', faq: 'Tambayoyin da Ake Yawan Yi' },
+    nav: { basics: 'Koyi Asali', tracks: 'Yara da Manya', story: 'Labaran Gaskiya', quiz: 'Jarabawa', resources: 'Albarkatu', report: 'Nemi Taimako', faq: 'Tambayoyin da Ake Yawan Yi', community: 'Raba Labarinka' },
     header: { textSize: 'Ƙara girman rubutu don sauƙin karatu', menuOpen: 'Buɗe Menu', menuClose: 'Rufe Menu', lang: 'Zaɓi Harshe' },
     brand: { tagline: 'Tsaron intanet, an bayyana shi cikin sauƙi' },
     hero: {
@@ -1903,6 +2023,21 @@ window.CSC_I18N = {
         { q: 'Zan iya raba wannan shafin da iyalina?', a: 'Don Allah ku yi hakan! Common Sense Cyber kyauta ne don amfani da rabawa — musamman da ƙananan masu bincike da ƙwararrun masu amfani da yanar gizo a rayuwarku.' }
       ]
     },
+    community: {
+      eyebrow: "Labaran Al'umma",
+      h2: 'Wani abu makamancin haka ya taɓa faruwa da kai?',
+      p: 'Ainihin abubuwan da suka faru suna taimaka wa sauran baƙi su gane irin waɗannan alamun haɗari. Ana duba kowane labari kafin a buga shi, kuma kana iya zama ba a bayyana sunanka ba idan ka so.',
+      emptyTitle: 'Babu labarai tukuna',
+      emptyBody: 'Ka zama na farko da zai raba nasa — abin da ya faru da kai zai iya taimaka wa wani ya gane irin wannan zamba.',
+      anonymousName: 'Ba a bayyana suna ba',
+      formTitle: 'Raba Labarinka',
+      formNote: 'Wannan zai buɗe manhajar imel ɗinka tare da labarinka da aka riga aka rubuta. Babu abin da ake buga shi kai tsaye — ainihin mutum ne ke duba kowane labari kafin ya bayyana a shafin.',
+      nameLabel: 'Sunanka (ba tilas ba)', anonymousLabel: 'Buga wannan ba tare da bayyana suna ba', storyLabel: 'Me ya faru?',
+      emailLabel: 'Imel ɗinka (na sirri — ana amfani da shi ne kawai idan muna da tambaya ta biyo baya, ba za a taɓa buga shi ba)',
+      consentLabel: 'Na yarda a duba wannan labarin kuma a iya raba shi a wannan shafin.',
+      submitLabel: 'Aika Labarina',
+      successMsg: 'Ana buɗe manhajar imel ɗinka…'
+    },
     footer: {
       tagline: 'Tsaron intanet, an bayyana shi cikin sauƙi.',
       disclaimer: 'Common Sense Cyber tushen ilimi ne mai zaman kansa kuma ba shi da alaƙa da wata hukumar gwamnati, banki, ko hukumar tilasta doka. A cikin gaggawa, ko idan an riga an aika kuɗi, tuntuɓi bankinka da Cibiyar Yaƙi da Zamba ta Kanada nan take.',
@@ -1917,7 +2052,7 @@ window.CSC_I18N = {
     logoAlt: 'Common Sense Cyber logo — shield wey dey smile',
     heroArtAlt: 'Picture of Common Sense Cyber mascot, shield wey dey smile',
     footerLogoAlt: 'Common Sense Cyber logo',
-    nav: { basics: 'Learn De Basics', tracks: 'Pikin & Old People', story: 'True True Stories', quiz: 'Quiz', resources: 'Resources', report: 'Find Help', faq: 'Wetin People Dey Ask' },
+    nav: { basics: 'Learn De Basics', tracks: 'Pikin & Old People', story: 'True True Stories', quiz: 'Quiz', resources: 'Resources', report: 'Find Help', faq: 'Wetin People Dey Ask', community: 'Share Your Story' },
     header: { textSize: 'Make text big small so e go dey easy to read', menuOpen: 'Open Menu', menuClose: 'Close Menu', lang: 'Choose Language' },
     brand: { tagline: 'Online safety, wey dem explain am plain plain' },
     hero: {
@@ -2104,6 +2239,21 @@ window.CSC_I18N = {
         { q: 'I need to sabi tech well well before I fit use dis site?', a: 'Not at all — na dat one be de whole point. Every guide for here, dem write am for simple language, e no expect say you get technical background.' },
         { q: 'I fit share dis site with my family?', a: 'Abeg do am! Common Sense Cyber na free to use and to share — especially with de small small explorer and wise web user for your life.' }
       ]
+    },
+    community: {
+      eyebrow: 'Community Stories',
+      h2: 'Something like dis don ever happen to you before?',
+      p: 'Real experience dey helep other visitors recognize de same warning sign dem. Dem go review every story before e go post, and you fit stay anonymous if you want.',
+      emptyTitle: 'No story yet',
+      emptyBody: 'Be de first person to share yours — your own experience fit helep another person recognize de same scam.',
+      anonymousName: 'Anonymous',
+      formTitle: 'Share Your Story',
+      formNote: 'Dis one go open your email app with your story wey don already dey there. Nothing go post by itself — real person go review every story before e show for de site.',
+      nameLabel: 'Your Name (no compulsory)', anonymousLabel: 'Post dis one anonymously', storyLabel: 'Wetin happen?',
+      emailLabel: 'Your Email (private — na only if we get follow-up question we go use am, we no go ever publish am)',
+      consentLabel: 'I dey okay make dem review dis story and fit share am for dis site.',
+      submitLabel: 'Send My Story',
+      successMsg: 'We dey open your email app…'
     },
     footer: {
       tagline: 'Online safety, wey dem explain am plain plain.',

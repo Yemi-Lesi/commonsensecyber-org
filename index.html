@@ -32,6 +32,7 @@
         <li><a href="#check-protect" data-i18n="nav.checkProtect">Check &amp; Protect</a></li>
         <li><a href="#report" data-i18n="nav.report">Get Help</a></li>
         <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#community" data-i18n="nav.community">Share Your Story</a></li>
       </ul>
     </nav>
 
@@ -397,6 +398,52 @@
     </div>
   </section>
 
+  <!-- ============ COMMUNITY STORIES ============ -->
+  <section class="section section-alt" id="community">
+    <div class="container">
+      <div class="section-header reveal" style="margin-inline:auto; text-align:center;">
+        <span class="eyebrow" data-i18n="community.eyebrow">Community stories</span>
+        <h2 data-i18n="community.h2">Has something like this happened to you?</h2>
+        <p style="margin-inline:auto;" data-i18n="community.p">Real experiences help other visitors recognize the same warning signs. Every story is reviewed before it's posted, and you're welcome to stay anonymous.</p>
+      </div>
+
+      <div class="community-layout">
+        <div class="reveal">
+          <div id="communityStoryList"></div>
+        </div>
+
+        <div class="reveal">
+          <h3 data-i18n="community.formTitle">Share your story</h3>
+          <p class="form-note" data-i18n="community.formNote">This opens your email app with your story pre-filled. Nothing is posted automatically — a real person reviews every submission before it goes on the site.</p>
+          <form id="communityForm" novalidate>
+            <div class="form-field">
+              <label for="communityName" data-i18n="community.nameLabel">Your name (optional)</label>
+              <input type="text" id="communityName" name="communityName" autocomplete="name">
+            </div>
+            <div class="form-field form-field-checkbox">
+              <input type="checkbox" id="communityAnonymous" name="communityAnonymous">
+              <label for="communityAnonymous" data-i18n="community.anonymousLabel">Post this anonymously</label>
+            </div>
+            <div class="form-field">
+              <label for="communityStory" data-i18n="community.storyLabel">What happened?</label>
+              <textarea id="communityStory" name="communityStory" required></textarea>
+            </div>
+            <div class="form-field">
+              <label for="communityEmail" data-i18n="community.emailLabel">Your email (private — only used if we have a follow-up question, never published)</label>
+              <input type="email" id="communityEmail" name="communityEmail" autocomplete="email">
+            </div>
+            <div class="form-field form-field-checkbox">
+              <input type="checkbox" id="communityConsent" name="communityConsent" required>
+              <label for="communityConsent" data-i18n="community.consentLabel">I'm okay with this story being reviewed and possibly shared on this site.</label>
+            </div>
+            <button class="btn btn-primary" type="submit" data-i18n="community.submitLabel">Send my story</button>
+            <div class="form-success" id="communityFormSuccess" role="status" data-i18n="community.successMsg">Opening your email app…</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
@@ -417,6 +464,7 @@
         <li><a href="#check-protect" data-i18n="nav.checkProtect">Check &amp; Protect</a></li>
         <li><a href="#report" data-i18n="nav.report">Get Help</a></li>
         <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#community" data-i18n="nav.community">Share Your Story</a></li>
       </ul>
     </div>
     <div class="footer-bottom">
