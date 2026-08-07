@@ -33,10 +33,12 @@ npx serve .
 Hosted on Cloudflare Pages. To ship a new deployment:
 
 ```bash
-npx wrangler pages deploy .
+npx wrangler pages deploy . --branch=main
 ```
 
 This uploads the current folder to the `common-sense-cyber` Pages project and updates both the `*.pages.dev` URL and the `commonsensecyber.org` custom domain.
+
+**Important:** always pass `--branch=main` explicitly. The Pages project's production branch is `main`, but this repo's git branch is `master` (git's default name) — without the flag, Wrangler deploys to a `master` preview environment instead of production, and the live site silently won't update.
 
 **Note:** Cloudflare Pages has a 25MB per-file limit. Videos in `assets/video/` are pre-compressed (H.264, ~480p) to stay under that limit — if adding a new video, compress it first (e.g. with `ffmpeg`) rather than uploading the raw file.
 
@@ -46,3 +48,13 @@ This uploads the current folder to the `common-sense-cyber` Pages project and up
 2. Add a matching poster illustration to `assets/img/` (SVG, following the existing gradient + icon style).
 3. Register the new file paths in `STORY_VIDEO_SRCS` / `STORY_VIDEO_POSTERS` in `js/main.js`.
 4. Add a matching `story.items` entry to **every** language block in `js/translations.js` — the array index must match the video/poster arrays above.
+
+## Publishing a community story
+
+Visitors submit stories via the "Share Your Story" form, which emails `contact@commonsensecyber.org` (forwarded via Cloudflare Email Routing) — nothing is posted automatically. To publish an approved submission:
+
+1. Open `js/main.js` and find the `COMMUNITY_STORIES` array near the top of the file.
+2. Add an entry: `{ name: 'Their name', body: 'The story text.' }` — omit `name` (or leave it `''`) to post anonymously.
+3. Deploy: `npx wrangler pages deploy . --branch=main`.
+
+Unlike the "Real Stories" videos, community story text is displayed as submitted and is **not** translated into the other 9 languages — it appears as-is regardless of the visitor's selected language.
