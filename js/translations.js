@@ -302,6 +302,18 @@ window.CSC_I18N = {
       submitLabel: 'Send my story',
       successMsg: 'Opening your email app…'
     },
+    legal: {
+      h2: 'Privacy & Terms',
+      p: 'How we handle information on this site, in plain language.',
+      items: [
+        { q: 'What information do you collect?', a: "The Get Help and Share Your Story forms open your own email app with your message ready to send — we don't run a server or database, so nothing you type is stored or seen by us until you personally hit send. Community stories are only published after a real person reviews them, and you can ask to have your story edited, anonymized, or removed at any time." },
+        { q: 'What do you store on my device?', a: "Just two small preferences, saved in your browser's local storage: your chosen language and text-size setting. Both stay on your device and are never sent to us." },
+        { q: 'Do you use cookies, tracking, or analytics?', a: "No advertising cookies, tracking scripts, or analytics of any kind. The one exception is Google Fonts, used to display text in multiple languages — loading it may share your IP address with Google. See Google's privacy policy for details." },
+        { q: "What about children's privacy?", a: "Common Sense Cyber is written for readers of every age, including children, but we don't knowingly collect personal information from anyone. Every form is optional, and we encourage a parent or guardian to review anything before it's sent." },
+        { q: 'Is this official government or legal advice?', a: "No. Common Sense Cyber is an independent educational resource and is not affiliated with any government agency, bank, or law enforcement body. Nothing on this site is professional legal, financial, or security advice — always verify anything urgent through official channels. Links to outside sites (like Have I Been Pwned or government resources) lead to independent organizations we don't control." },
+        { q: 'Questions about this page?', a: 'Reach us anytime at contact@commonsensecyber.org.' }
+      ]
+    },
     footer: {
       tagline: 'Online safety, plainly explained.',
       disclaimer: 'Common Sense Cyber is an independent educational resource and is not affiliated with any government agency, bank, or law enforcement body. In an emergency, or if money has already been sent, contact your bank and the Canadian Anti-Fraud Centre right away.',
@@ -518,6 +530,18 @@ window.CSC_I18N = {
       consentLabel: "J'accepte que cette histoire soit vérifiée et possiblement partagée sur ce site.",
       submitLabel: 'Envoyer mon histoire',
       successMsg: 'Ouverture de votre application de courriel…'
+    },
+    legal: {
+      h2: 'Confidentialité et conditions',
+      p: 'Comment nous traitons les renseignements sur ce site, en langage simple.',
+      items: [
+        { q: 'Quelles informations recueillez-vous?', a: "Les formulaires « Obtenir de l'aide » et « Partagez votre histoire » ouvrent votre propre application de courriel avec votre message prêt à envoyer — nous n'exploitons ni serveur ni base de données, donc rien de ce que vous tapez n'est stocké ni vu par nous avant que vous choisissiez personnellement de l'envoyer. Les histoires communautaires ne sont publiées qu'après vérification par une vraie personne, et vous pouvez demander que votre histoire soit modifiée, rendue anonyme ou retirée en tout temps." },
+        { q: 'Que stockez-vous sur mon appareil?', a: "Seulement deux petites préférences, enregistrées dans le stockage local de votre navigateur : votre langue choisie et votre taille de texte. Les deux restent sur votre appareil et ne nous sont jamais envoyées." },
+        { q: 'Utilisez-vous des témoins (cookies), du suivi ou des analyses?', a: "Aucun témoin publicitaire, script de suivi ou outil d'analyse, peu importe le type. La seule exception est Google Fonts, utilisé pour afficher le texte dans plusieurs langues — son chargement peut partager votre adresse IP avec Google. Consultez la politique de confidentialité de Google pour plus de détails." },
+        { q: "Qu'en est-il de la confidentialité des enfants?", a: "Common Sense Cyber s'adresse à des lecteurs de tous âges, y compris les enfants, mais nous ne recueillons sciemment aucun renseignement personnel auprès de qui que ce soit. Chaque formulaire est facultatif, et nous encourageons un parent ou tuteur à réviser tout message avant son envoi." },
+        { q: 'Est-ce un avis gouvernemental ou juridique officiel?', a: "Non. Common Sense Cyber est une ressource éducative indépendante et n'est affiliée à aucun organisme gouvernemental, banque ou service policier. Rien sur ce site ne constitue un avis juridique, financier ou de sécurité professionnel — vérifiez toujours tout ce qui est urgent par les voies officielles. Les liens vers des sites externes (comme Have I Been Pwned ou des ressources gouvernementales) mènent à des organisations indépendantes que nous ne contrôlons pas." },
+        { q: 'Des questions à propos de cette page?', a: 'Écrivez-nous en tout temps à contact@commonsensecyber.org.' }
+      ]
     },
     footer: {
       tagline: 'La sécurité en ligne, expliquée simplement.',
@@ -736,6 +760,18 @@ window.CSC_I18N = {
       submitLabel: 'Enviar mi historia',
       successMsg: 'Abriendo tu aplicación de correo…'
     },
+    legal: {
+      h2: 'Privacidad y términos',
+      p: 'Cómo manejamos la información en este sitio, en lenguaje sencillo.',
+      items: [
+        { q: '¿Qué información recopilan?', a: "Los formularios de Obtener ayuda y Comparte tu historia abren tu propia aplicación de correo con tu mensaje listo para enviar — no operamos un servidor ni una base de datos, así que nada de lo que escribas se almacena ni lo vemos nosotros hasta que tú decidas enviarlo. Las historias comunitarias solo se publican después de que una persona real las revise, y puedes pedir que tu historia sea editada, anonimizada o eliminada en cualquier momento." },
+        { q: '¿Qué guardan en mi dispositivo?', a: "Solo dos pequeñas preferencias, guardadas en el almacenamiento local de tu navegador: tu idioma elegido y el tamaño de texto. Ambas permanecen en tu dispositivo y nunca se nos envían." },
+        { q: '¿Usan cookies, rastreo o análisis?', a: "Ninguna cookie publicitaria, script de rastreo o análisis de ningún tipo. La única excepción es Google Fonts, usado para mostrar texto en varios idiomas — al cargarlo, es posible que se comparta tu dirección IP con Google. Consulta la política de privacidad de Google para más detalles." },
+        { q: '¿Qué hay de la privacidad de los niños?', a: "Common Sense Cyber está escrito para lectores de todas las edades, incluidos los niños, pero no recopilamos conscientemente información personal de nadie. Cada formulario es opcional, y recomendamos que un padre, madre o tutor revise cualquier mensaje antes de enviarlo." },
+        { q: '¿Es esto un aviso oficial del gobierno o legal?', a: "No. Common Sense Cyber es un recurso educativo independiente y no está afiliado a ninguna agencia gubernamental, banco o cuerpo policial. Nada en este sitio es asesoría legal, financiera o de seguridad profesional — siempre verifica cualquier asunto urgente a través de canales oficiales. Los enlaces a sitios externos (como Have I Been Pwned o recursos gubernamentales) llevan a organizaciones independientes que no controlamos." },
+        { q: '¿Preguntas sobre esta página?', a: 'Escríbenos cuando quieras a contact@commonsensecyber.org.' }
+      ]
+    },
     footer: {
       tagline: 'Seguridad en línea, explicada con sencillez.',
       disclaimer: 'Common Sense Cyber es un recurso educativo independiente y no está afiliado a ninguna agencia gubernamental, banco o cuerpo policial. En caso de emergencia, o si ya se envió dinero, contacta de inmediato a tu banco y al Centro Antifraude de Canadá.',
@@ -952,6 +988,18 @@ window.CSC_I18N = {
       consentLabel: '我同意这篇故事被审核，并可能被分享到本网站上。',
       submitLabel: '发送我的故事',
       successMsg: '正在打开您的邮件应用……'
+    },
+    legal: {
+      h2: '隐私与条款',
+      p: '我们如何处理本网站上的信息，用简单易懂的语言说明。',
+      items: [
+        { q: '你们会收集哪些信息？', a: '"获取帮助"和"分享您的故事"表单会打开您自己的邮件应用，并自动填好待发送的内容——我们不运营任何服务器或数据库，因此在您亲自点击发送之前，您输入的任何内容都不会被存储或被我们看到。社区故事只有在真人审核后才会发布，您可以随时要求编辑、匿名处理或删除您的故事。' },
+        { q: '你们会在我的设备上存储什么？', a: '仅有两项很小的偏好设置，保存在您浏览器的本地存储中：您选择的语言和文字大小。两者都只保留在您的设备上，绝不会发送给我们。' },
+        { q: '你们使用 Cookie、跟踪或分析工具吗？', a: '不使用任何广告 Cookie、跟踪脚本或分析工具。唯一的例外是 Google Fonts，用于显示多语言文本——加载它可能会将您的 IP 地址分享给 Google。详情请参阅 Google 的隐私政策。' },
+        { q: '关于儿童隐私呢？', a: 'Common Sense Cyber 面向所有年龄段的读者，包括儿童，但我们不会在明知情况下收集任何人的个人信息。所有表单都是可选的，我们建议家长或监护人在发送前先查看内容。' },
+        { q: '这是官方政府或法律建议吗？', a: '不是。Common Sense Cyber 是一个独立的教育资源网站，并未与任何政府机构、银行或执法部门存在关联。本网站上的内容均不构成专业的法律、财务或安全建议——紧急情况请务必通过官方渠道核实。指向外部网站的链接（如 Have I Been Pwned 或政府资源）会带您前往我们无法控制的独立机构网站。' },
+        { q: '对本页面有疑问？', a: '欢迎随时通过 contact@commonsensecyber.org 与我们联系。' }
+      ]
     },
     footer: {
       tagline: '网络安全，简单易懂。',
@@ -1170,6 +1218,18 @@ window.CSC_I18N = {
       submitLabel: 'إرسال قصتي',
       successMsg: 'جارٍ فتح تطبيق البريد الإلكتروني لديك…'
     },
+    legal: {
+      h2: 'الخصوصية والشروط',
+      p: 'كيف نتعامل مع المعلومات على هذا الموقع، بلغة بسيطة.',
+      items: [
+        { q: 'ما المعلومات التي تجمعونها؟', a: 'تفتح نماذج "طلب المساعدة" و"شارك قصتك" تطبيق البريد الإلكتروني الخاص بك مع رسالتك جاهزة للإرسال — نحن لا نشغّل خادمًا أو قاعدة بيانات، لذا لا يُخزَّن أو يُرى أي شيء تكتبه من قِبلنا حتى تختار بنفسك إرساله. تُنشر القصص المجتمعية فقط بعد مراجعتها من قِبل شخص حقيقي، ويمكنك طلب تعديل قصتك أو إخفاء هويتها أو حذفها في أي وقت.' },
+        { q: 'ماذا تخزّنون على جهازي؟', a: 'فقط تفضيلان صغيران، محفوظان في التخزين المحلي لمتصفحك: لغتك المختارة وحجم النص. يبقى كلاهما على جهازك ولا يُرسلان إلينا أبدًا.' },
+        { q: 'هل تستخدمون ملفات تعريف الارتباط أو التتبع أو التحليلات؟', a: 'لا نستخدم أي ملفات تعريف ارتباط إعلانية أو نصوص تتبع أو أدوات تحليل من أي نوع. الاستثناء الوحيد هو Google Fonts، المستخدم لعرض النص بعدة لغات — قد يؤدي تحميله إلى مشاركة عنوان IP الخاص بك مع Google. راجع سياسة خصوصية Google لمزيد من التفاصيل.' },
+        { q: 'ماذا عن خصوصية الأطفال؟', a: 'مصمَّم Common Sense Cyber للقراء من جميع الأعمار، بمن فيهم الأطفال، لكننا لا نجمع عن قصد أي معلومات شخصية من أي شخص. كل نموذج اختياري، ونشجّع على أن يراجع أحد الوالدين أو الوصي أي رسالة قبل إرسالها.' },
+        { q: 'هل هذه نصيحة حكومية أو قانونية رسمية؟', a: 'لا. Common Sense Cyber هو مورد تعليمي مستقل وغير تابع لأي جهة حكومية أو بنك أو جهة إنفاذ قانون. لا شيء في هذا الموقع يُعد نصيحة قانونية أو مالية أو أمنية احترافية — تحقق دائمًا من أي أمر عاجل عبر القنوات الرسمية. الروابط إلى مواقع خارجية (مثل Have I Been Pwned أو الموارد الحكومية) تقودك إلى منظمات مستقلة لا نتحكم بها.' },
+        { q: 'أسئلة حول هذه الصفحة؟', a: 'تواصل معنا في أي وقت عبر contact@commonsensecyber.org.' }
+      ]
+    },
     footer: {
       tagline: 'الأمان الرقمي، مشروحًا ببساطة.',
       disclaimer: 'Common Sense Cyber مصدر تعليمي مستقل وغير تابع لأي جهة حكومية أو بنك أو جهة إنفاذ قانون. في حالات الطوارئ، أو إذا تم إرسال المال بالفعل، تواصل فورًا مع بنكك ومع المركز الكندي لمكافحة الاحتيال.',
@@ -1386,6 +1446,18 @@ window.CSC_I18N = {
       consentLabel: 'मैं सहमत हूँ कि इस कहानी की समीक्षा हो और इसे इस साइट पर साझा किया जा सकता है।',
       submitLabel: 'मेरी कहानी भेजें',
       successMsg: 'आपकी ईमेल ऐप खुल रही है…'
+    },
+    legal: {
+      h2: 'गोपनीयता और नियम',
+      p: 'हम इस साइट पर जानकारी को कैसे संभालते हैं, आसान भाषा में।',
+      items: [
+        { q: 'आप कौन सी जानकारी इकट्ठा करते हैं?', a: '"मदद पाएं" और "अपनी कहानी साझा करें" फ़ॉर्म आपकी अपनी ईमेल ऐप खोलते हैं, जिसमें आपका मैसेज भेजने के लिए पहले से तैयार होता है — हम कोई सर्वर या डेटाबेस नहीं चलाते, इसलिए आप जो भी टाइप करते हैं, जब तक आप खुद उसे भेजने का फैसला नहीं करते, वह न तो स्टोर होता है और न ही हमें दिखता है। समुदाय की कहानियाँ केवल एक असली व्यक्ति द्वारा जांचे जाने के बाद ही पब्लिश होती हैं, और आप कभी भी अपनी कहानी को एडिट, गुमनाम या हटाने के लिए कह सकते हैं।' },
+        { q: 'आप मेरे डिवाइस पर क्या स्टोर करते हैं?', a: 'सिर्फ दो छोटी प्राथमिकताएँ, जो आपके ब्राउज़र की लोकल स्टोरेज में सेव होती हैं: आपकी चुनी हुई भाषा और टेक्स्ट-साइज़ सेटिंग। दोनों आपके डिवाइस पर ही रहती हैं और कभी भी हमें नहीं भेजी जातीं।' },
+        { q: 'क्या आप कुकीज़, ट्रैकिंग, या एनालिटिक्स इस्तेमाल करते हैं?', a: 'कोई विज्ञापन कुकीज़, ट्रैकिंग स्क्रिप्ट, या किसी भी तरह का एनालिटिक्स नहीं। एक अपवाद है Google Fonts, जिसका इस्तेमाल कई भाषाओं में टेक्स्ट दिखाने के लिए होता है — इसे लोड करने से आपका IP एड्रेस Google के साथ शेयर हो सकता है। जानकारी के लिए Google की प्राइवेसी पॉलिसी देखें।' },
+        { q: 'बच्चों की गोपनीयता के बारे में क्या?', a: 'Common Sense Cyber हर उम्र के पाठकों के लिए लिखा गया है, बच्चों सहित, लेकिन हम जानबूझकर किसी से भी व्यक्तिगत जानकारी नहीं लेते। हर फ़ॉर्म वैकल्पिक है, और हम सलाह देते हैं कि कोई भी मैसेज भेजने से पहले माता-पिता या अभिभावक उसे जांच लें।' },
+        { q: 'क्या यह आधिकारिक सरकारी या कानूनी सलाह है?', a: 'नहीं। Common Sense Cyber एक स्वतंत्र शैक्षिक संसाधन है और किसी भी सरकारी एजेंसी, बैंक, या कानून प्रवर्तन संस्था से संबद्ध नहीं है। इस साइट पर कुछ भी पेशेवर कानूनी, वित्तीय, या सुरक्षा सलाह नहीं है — किसी भी अत्यावश्यक बात को हमेशा आधिकारिक माध्यमों से जांचें। बाहरी साइटों के लिंक (जैसे Have I Been Pwned या सरकारी संसाधन) स्वतंत्र संगठनों की ओर ले जाते हैं जिन पर हमारा कोई नियंत्रण नहीं है।' },
+        { q: 'इस पेज के बारे में सवाल हैं?', a: 'कभी भी हमसे contact@commonsensecyber.org पर संपर्क करें।' }
+      ]
     },
     footer: {
       tagline: 'ऑनलाइन सुरक्षा, आसान भाषा में।',
@@ -1604,6 +1676,18 @@ window.CSC_I18N = {
       submitLabel: 'Fi ìtàn mi ránṣẹ́',
       successMsg: 'À ń ṣí app ímeèlì rẹ…'
     },
+    legal: {
+      h2: 'Ìpamọ́ Àṣírí àti Àwọn Òfin',
+      p: 'Bí a ṣe ń mú àlàyé lórí ojú-òpó yìí, ní èdè tí ó rọrùn.',
+      items: [
+        { q: 'Àlàyé wo ni ẹ̀yin ń kójọ?', a: 'Àwọn fọ́ọ̀mù "Rí Ìrànlọ́wọ́ Gbà" àti "Fi Ìtàn Rẹ Sílẹ̀" ń ṣí app ímeèlì tirẹ pẹ̀lú ìránṣẹ́ rẹ tí ó ti ṣetán láti fi ránṣẹ́ — a kò ṣiṣẹ́ sáfà tàbí ibi ìpamọ́ dátà kankan, nítorí náà kò sí ohun tí o kọ tí a óò tọ́jú tàbí rí kí o tó fúnra rẹ pinnu láti fi ránṣẹ́. Àwọn ìtàn àwùjọ ni a óò gbé jáde lẹ́yìn tí ènìyàn gidi bá ti ṣàyẹ̀wò wọn, o sì lè béèrè kí a ṣàtúnṣe, mú kí ìtàn rẹ jẹ́ aláìṣàkọsílẹ̀, tàbí yọ ìtàn rẹ kúrò nígbàkigbà.' },
+        { q: 'Kí ni ẹ̀yin ń fi pamọ́ sórí ẹ̀rọ mi?', a: 'Àwọn ohun kékeré méjì péré ni a ń fi pamọ́ sí ibi ìpamọ́ àdúgbò browser rẹ: èdè tí o yàn àti ìwọ̀n lẹ́tà tí o yàn. Méjèèjì a máa dúró sórí ẹ̀rọ rẹ, a kì í fi wọ́n ránṣẹ́ sí wa láéláé.' },
+        { q: 'Ṣé ẹ̀yin ń lo kúkì, àbójútó, tàbí ìtúpalẹ̀ dátà?', a: 'Kò sí kúkì olùpolówó, àwọn àkọsílẹ̀ àbójútó, tàbí ìtúpalẹ̀ dátà kankan. Ọ̀kan péré ni Google Fonts, èyí tí a ń lò láti fi hàn ọ̀rọ̀ ní onírúurú èdè — lílo rẹ̀ lè jẹ́ kí a pín àdírẹ́ẹ̀sì IP rẹ pẹ̀lú Google. Wo ìlànà ìpamọ́ àṣírí Google fún àlàyé síi.' },
+        { q: 'Kí ni nípa ìpamọ́ àṣírí àwọn ọmọdé?', a: 'A kọ Common Sense Cyber fún àwọn òǹkàwé ní gbogbo ọjọ́ orí, àwọn ọmọdé pẹ̀lú, ṣùgbọ́n a kò mọ̀ọ́mọ̀ kó àlàyé ìdánimọ̀ ẹnikẹ́ni jọ. Gbogbo fọ́ọ̀mù jẹ́ àṣàyàn, a sì gba àwọn òbí tàbí olùtọ́jú níyànjú láti ṣàyẹ̀wò ìránṣẹ́ kankan kí ó tó jáde.' },
+        { q: 'Ṣé ìmọ̀ràn ìjọba tàbí ti òfin ni èyí?', a: 'Rárá. Common Sense Cyber jẹ́ ohun èlò ìkọ́nilẹ́kọ̀ọ́ olómìnira, kò sì ní àjọṣepọ̀ pẹ̀lú ìjọba, báǹkì, tàbí àwọn agbófinró. Kò sí ohun kan lórí ojú-òpó yìí tí ó jẹ́ ìmọ̀ràn òfin, owó, tàbí ààbò aláṣẹ — ṣàyẹ̀wò ohunkóhun tí ó bá yára nípasẹ̀ àwọn ọ̀nà ìjọba tòótọ́ nígbà gbogbo. Àwọn ìjápọ̀ sí àwọn ojú-òpó mìíràn (bíi Have I Been Pwned tàbí àwọn ohun èlò ìjọba) ń darí rẹ sí àwọn àjọ olómìnira tí a kò ṣàkóso.' },
+        { q: 'Ǹjẹ́ ìbéèrè kan wà nípa ojú-ìwé yìí?', a: 'Kàn sí wa nígbàkigbà ní contact@commonsensecyber.org.' }
+      ]
+    },
     footer: {
       tagline: 'Ààbò lórí Íńtánẹ́ẹ̀tì, tí a ṣàlàyé láìní ìdíjú.',
       disclaimer: 'Common Sense Cyber jẹ́ orísun ẹ̀kọ́ òmìnira tí a kò sì so mọ́ àjọ ìjọba, báǹkì, tàbí àjọ ìmúṣẹ òfin kankan. Nínú ìjàmbá, tàbí bí a bá ti fi owó ránṣẹ́ tẹ́lẹ̀, kàn sí báǹkì rẹ àti Ilé-iṣẹ́ Ìjà Ẹ̀tàn ti Kánádà lẹ́sẹ̀kẹsẹ̀.',
@@ -1820,6 +1904,18 @@ window.CSC_I18N = {
       consentLabel: 'Ọ dị mma ka a nyocha akụkọ a ma kesaa ya na saịtị a.',
       submitLabel: 'Ziga Akụkọ M',
       successMsg: 'Na-emeghe ngwa email gị…'
+    },
+    legal: {
+      h2: 'Nzuzo na Usoro',
+      p: "Otu anyị si eji ozi na saịtị a mee ihe, n'ụzọ dị mfe.",
+      items: [
+        { q: 'Kedu ozi ndị unu na-anakọta?', a: 'Fọm "Nweta Enyemaka" na "Kesaa Akụkọ Gị" na-emeghe ngwa email gị nwere ozi gị dịworo njikere izipụ — anyị anaghị eji sava ma ọ bụ ọbá data arụ ọrụ, ya mere ọ dịghị ihe ị pịrị achọpụta ma ọ bụ na anyị ahụla tutu ruo mgbe ị ga-eji aka gị zipu ya. A na-ebipụta akụkọ obodo naanị mgbe ezigbo mmadụ nyocharala ha, ị nwekwara ike ịrịọ ka edezie, kpuchie aha, ma ọ bụ wepụ akụkọ gị mgbe ọ bụla.' },
+        { q: 'Kedu ihe unu na-echekwa na ngwaọrụ m?', a: "Naanị mmasị abụọ dị nta, echekwara na nchekwa mpaghara nchọgharị gị: asụsụ ị họọrọ na ọnụ ọgụgụ mkpụrụedemede. Ha abụọ na-anọgide na ngwaọrụ gị, a naghị ezigara anyị ha ma ọlị." },
+        { q: 'Ọ bụ na unu na-eji kuki, nleba anya, ma ọ bụ nyocha?', a: "Enweghị kuki mgbasa ozi, script nleba anya, ma ọ bụ nyocha nke ọ bụla. Naanị ihe dị iche bụ Google Fonts, nke a na-eji egosi ederede n'asụsụ dị iche iche — ibu ya nwere ike ikesa adreesị IP gị na Google. Lelee amụma nzuzo Google maka nkọwa ndị ọzọ." },
+        { q: 'Gịnị banyere nzuzo ụmụaka?', a: 'E dere Common Sense Cyber maka ndị na-agụ agụmagụ n\'agbụrụ ọ bụla, gụnyere ụmụaka, mana anyị anaghị amata ama anakọta ozi nkeonwe onye ọ bụla. Fọm ọ bụla bụ nhọrọ, anyị na-akwado ka nne na nna ma ọ bụ onye nlekọta nyochaa ozi ọ bụla tupu ezipụ ya.' },
+        { q: "Ọ bụ ndụmọdụ gọọmentị ma ọ bụ nke iwu n'ezie?", a: "Mba. Common Sense Cyber bụ akụrụngwa mmụta nwere onwe ya, ọ dịghị ejikọta ya na ụlọ ọrụ gọọmentị ọ bụla, ụlọ akụ, ma ọ bụ ndị mmanye iwu. Ọ dịghị ihe dị na saịtị a bụ ndụmọdụ iwu, ego, ma ọ bụ nchekwa ọkachamara — jirikwa ụzọ gọọmentị kwadoro nyochaa ihe ọ bụla mkpa ozugbo. Njikọ ndị na-eduga na saịtị ndị ọzọ (dịka Have I Been Pwned ma ọ bụ akụrụngwa gọọmentị) na-eduga gị na ụlọ ọrụ nwere onwe ha nke anyị na-adịghị achịkwa." },
+        { q: 'Ị nwere ajụjụ gbasara peeji a?', a: 'Kpọtụrụ anyị mgbe ọ bụla na contact@commonsensecyber.org.' }
+      ]
     },
     footer: {
       tagline: "Nchekwa ịntanetị, akọwara n'ụzọ dị mfe.",
@@ -2038,6 +2134,18 @@ window.CSC_I18N = {
       submitLabel: 'Aika Labarina',
       successMsg: 'Ana buɗe manhajar imel ɗinka…'
     },
+    legal: {
+      h2: 'Sirri da Sharuɗɗa',
+      p: 'Yadda muke kula da bayanai a wannan shafin, cikin sauƙin harshe.',
+      items: [
+        { q: 'Waɗanne bayanai kuke tattarawa?', a: "Fom ɗin \"Nemi Taimako\" da \"Raba Labarinka\" suna buɗe manhajar imel ɗinka tare da saƙonka a shirye don aikawa — ba mu gudanar da sava ko database ba, don haka babu abin da ka rubuta da ake ajiyewa ko da mu gani sai ka zaɓi da kanka ka aika. Ana buga labaran al'umma ne kawai bayan ainihin mutum ya duba su, kuma kana iya neman a gyara, a ɓoye suna, ko a cire labarinka a kowane lokaci." },
+        { q: "Me kuke ajiyewa a na'urata?", a: "Abubuwa biyu ne kawai, ana ajiye su a cikin ma'ajin gida na burauzarka: harshen da ka zaɓa da girman rubutu. Dukansu suna zama a na'urarka kawai, ba a taɓa aika su gare mu ba." },
+        { q: 'Kuna amfani da kukiz, bibiya, ko bincike?', a: 'Babu kukiz na talla, rubutun bibiya, ko wani irin bincike. Banda shi kawai shine Google Fonts, wanda ake amfani da shi don nuna rubutu cikin harsuna daban-daban — loda shi na iya raba adireshin IP ɗinka da Google. Duba manufar sirri ta Google don ƙarin bayani.' },
+        { q: 'Yaya game da sirrin yara?', a: "An rubuta Common Sense Cyber ne domin masu karatu na kowane shekaru, har da yara, amma ba mu tattara bayanan sirri na kowa da gangan ba. Kowane fom zaɓi ne, kuma muna ƙarfafa iyaye ko mai kula da yaro ya duba saƙon kafin a aika shi." },
+        { q: "Wannan shawara ce ta hukuma ta gwamnati ko ta shari'a?", a: "A'a. Common Sense Cyber wata hanya ce mai zaman kanta ta ilimi, kuma ba ta da alaƙa da wata hukumar gwamnati, banki, ko hukumar tilasta bin doka. Babu abin da ke wannan shafin da ya zama shawarar shari'a, ta kuɗi, ko ta tsaro ta ƙwararru — koyaushe ka tabbatar da duk wani abu na gaggawa ta hanyoyin hukuma. Hanyoyin haɗi zuwa wasu shafuka (kamar Have I Been Pwned ko albarkatun gwamnati) suna kai ka ga ƙungiyoyi masu zaman kansu da ba mu iko a kansu." },
+        { q: 'Kana da tambayoyi game da wannan shafin?', a: 'Tuntube mu kowane lokaci a contact@commonsensecyber.org.' }
+      ]
+    },
     footer: {
       tagline: 'Tsaron intanet, an bayyana shi cikin sauƙi.',
       disclaimer: 'Common Sense Cyber tushen ilimi ne mai zaman kansa kuma ba shi da alaƙa da wata hukumar gwamnati, banki, ko hukumar tilasta doka. A cikin gaggawa, ko idan an riga an aika kuɗi, tuntuɓi bankinka da Cibiyar Yaƙi da Zamba ta Kanada nan take.',
@@ -2254,6 +2362,18 @@ window.CSC_I18N = {
       consentLabel: 'I dey okay make dem review dis story and fit share am for dis site.',
       submitLabel: 'Send My Story',
       successMsg: 'We dey open your email app…'
+    },
+    legal: {
+      h2: 'Privacy & Rules',
+      p: 'How we dey handle information for dis site, for plain language.',
+      items: [
+        { q: 'Wetin una dey collect?', a: 'De "Find Help" and "Share Your Story" forms go open your own email app with your message wey don ready to send — we no dey run any server or database, so nothing wey you type no go store or we no go see am until you yourself decide to send am. We dey post community stories only after real person don review dem, and you fit ask make dem edit, anonymize, or remove your story anytime.' },
+        { q: 'Wetin una dey store for my device?', a: 'Just two small preference, wey dey save inside your browser local storage: de language wey you choose and text-size setting. Both of dem go stay for your device, we no dey ever send dem to us.' },
+        { q: 'Una dey use cookies, tracking, or analytics?', a: 'No advertising cookies, tracking script, or analytics of any kind. De only exception na Google Fonts, wey we dey use show text for different languages — to load am fit share your IP address with Google. Check Google privacy policy for more details.' },
+        { q: 'Wetin about children privacy?', a: 'Dem write Common Sense Cyber for readers of every age, including children, but we no dey knowingly collect personal information from anybody. Every form na optional, and we dey encourage make parent or guardian check anything before dem send am.' },
+        { q: 'Na official government or legal advice be dis?', a: 'No. Common Sense Cyber na independent educational resource, e no dey affiliated with any government agency, bank, or law enforcement body. Nothing for dis site na professional legal, financial, or security advice — always verify anything urgent through official channels. Links to outside sites (like Have I Been Pwned or government resources) go carry you go independent organizations wey we no control.' },
+        { q: 'You get question about dis page?', a: 'Reach us anytime for contact@commonsensecyber.org.' }
+      ]
     },
     footer: {
       tagline: 'Online safety, wey dem explain am plain plain.',

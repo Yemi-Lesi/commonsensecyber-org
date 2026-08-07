@@ -1037,6 +1037,44 @@ html[dir="rtl"] .cp-status-panel { border-left: none; border-right: 4px solid; }
   color: #c9b8ac;
 }
 
+/* ============================================================
+   Legal section
+   ============================================================ */
+.legal-section {
+  background: #221a16;
+  color: #c9b8ac;
+  padding-block: var(--space-4) var(--space-5);
+}
+.legal-section h2 {
+  color: #f0e4da;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+}
+.legal-intro { font-size: 0.9rem; margin: 0 0 var(--space-3); }
+.legal-list { display: grid; gap: 8px; max-width: 780px; }
+.legal-item {
+  background: rgba(240, 228, 218, 0.05);
+  border: 1px solid rgba(240, 228, 218, 0.12);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+}
+.legal-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #f0e4da;
+  font-size: 0.92rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+}
+.legal-item summary::-webkit-details-marker { display: none; }
+.legal-item summary .chev { transition: transform var(--dur-med) var(--ease-out); flex-shrink: 0; }
+.legal-item[open] summary .chev { transform: rotate(180deg); }
+.legal-item p { font-size: 0.88rem; margin: 8px 0 0; color: #c9b8ac; }
+.legal-item a { text-decoration: underline; }
+
 /* Skip-to-content main landmark focus target should have no odd outline offset issues */
 main { outline: none; }
 

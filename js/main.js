@@ -264,6 +264,17 @@
     `).join('');
   }
 
+  function renderLegal() {
+    const list = document.getElementById('legalList');
+    if (!list) return;
+    list.innerHTML = t().legal.items.map(item => `
+      <details class="legal-item">
+        <summary>${item.q}${svgIcon('chevDown', 16, 'chev')}</summary>
+        <p>${item.a}</p>
+      </details>
+    `).join('');
+  }
+
   /* ============================================================
      Quiz
      ============================================================ */
@@ -406,6 +417,7 @@
     renderResources();
     renderFaq();
     renderCommunityStories();
+    renderLegal();
     quizIndex = 0;
     quizScore = 0;
     renderQuizQuestion();
